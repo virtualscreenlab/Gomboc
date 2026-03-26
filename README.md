@@ -20,28 +20,26 @@ The protein folding problem remains a fundamental challenge in biophysics. While
 - **Benchmarking**: Comparison against Rosetta *ab initio* simulations and AlphaFold3 predictions for the TPR1 domain
 - **Comprehensive Energy Function**: Seven additive terms balancing native attraction, geometric constraints, and frustration
 
-## Repository Structure
+## Installation
 
-Gomboc/
-├── Algorithm/           # Core folding algorithms and optimization routines
-│   ├── gomboc_model.py         # Main simulation engine
-│   ├── energy_functions.py     # Potential energy calculations
-│   └── optimization.py         # CG and BFGS optimization wrappers
-├── Alignment/           # Structural alignment tools and RMSD calculations
-│   ├── structural_alignment.py
-│   └── rmsd_utils.py
-├── AlphaFold/          # AlphaFold3 analysis scripts and results
-│   ├── af3_predictions.py
-│   ├── pae_analysis.py
-│   └── plddt_calculations.py
-├── Matlab/             # MATLAB scripts for 3D Gömböc visualization
-│   ├── gomboc_3d_generator.m
-│   └── surface_plotting.m
-├── Rosetta/            # Rosetta ab initio simulation protocols
-│   ├── tpr1_abinitio.xml     # RosettaScripts protocol
-│   ├── cluster_analysis.py
-│   └── energy_landscape.py
-└── Statistics/         # Statistical analysis and visualization
-├── folding_kinetics.py
-├── success_rates.py
-└── figure_generation.py
+### Prerequisites
+
+- Python 3.9+
+- NumPy >= 1.21.0
+- SciPy >= 1.7.0
+- Matplotlib >= 3.4.0
+- MATLAB R2020b+ (for 3D visualization)
+
+### Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/virtualscreenlab/Gomboc.git
+cd Gomboc
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
