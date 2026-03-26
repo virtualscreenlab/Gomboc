@@ -1,0 +1,219 @@
+
+================================================================================
+STEP 1: DATA LOADING
+================================================================================
+✓ Total structures loaded: 2,500
+✓ RMSD range: [0.526, 16.591]
+✓ Energy range: [-350.140, 816.507]
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+  COMPLETE FUNNEL ANALYSIS PIPELINE
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+================================================================================
+STEP 2: OUTLIER DETECTION & JUSTIFICATION
+================================================================================
+
+🔍 Running multiple outlier detection methods...
+
+------------------------------------------------------------
+OUTLIER DETECTION RESULTS
+------------------------------------------------------------
+
+📊 Detection by Method:
+   Z-score > 3                   :   32 structures (1.3%)
+   Isolation Forest              :  125 structures (5.0%)
+   Elliptic Envelope             :  125 structures (5.0%)
+   Positive Energy               :   23 structures (0.9%)
+   Extreme RMSD (>99.5%)         :   13 structures (0.5%)
+   Local Outlier Factor          :  125 structures (5.0%)
+
+🔍 Consensus Results:
+   Structures flagged by 0 methods: 2235
+   Structures flagged by 1 method:  169
+   Structures flagged by 2 methods: 47
+   Structures flagged by 3+ methods: 49
+
+   ➜ Outliers (flagged by ≥2 methods): 96
+   ➜ Clean data (flagged by 0-1 methods): 2404
+
+------------------------------------------------------------
+OUTLIER CHARACTERIZATION
+------------------------------------------------------------
+
+🔴 PHYSICAL JUSTIFICATION:
+   • 23 structures with POSITIVE energies removed
+     Range: [20.25, 816.51]
+     → Positive energies are unphysical for stable proteins
+   • 43 structures with extreme high energies (>5σ from clean data mean)
+     Clean data mean: -322.13 ± 14.46
+   • 79 structures with RMSD > 10Å
+     Max RMSD: 16.59Å
+     → These represent completely misfolded decoys
+
+📊 STATISTICAL JUSTIFICATION:
+   • Removal percentage: 3.8%
+     → Well within acceptable limits (<5-10%)
+   • Multi-method consensus: 6 independent methods
+   • Consensus threshold: flagged by ≥2 methods
+   • This ensures robust, non-arbitrary removal
+
+📈 IMPACT ON CORRELATION:
+   Before removal: r = 0.4344 (p = 1.3440e-115)
+   After removal:  r = 0.6990 (p = 0.0000e+00)
+   Improvement:    ++0.2646 (60.9%)
+   → Removal reveals true funnel relationship obscured by artifacts
+
+📊 Outlier justification plot saved as 'outlier_justification.png' and '.pdf'
+📄 Outlier justification report saved as 'outlier_removal_justification.txt'
+
+✅ Outlier detection phase complete
+✓ Clean dataset: 2,404 structures retained
+✓ Outliers removed: 96 (3.8%)
+
+================================================================================
+STEP 3: CLEAN DATASET SUMMARY
+================================================================================
+
+📊 Dataset Characteristics (Clean Data):
+   Number of structures: 2,404
+   RMSD range: [0.526, 12.472]
+   Energy range: [-350.140, -245.833]
+   RMSD mean ± std: 2.379 ± 2.392
+   Energy mean ± std: -322.132 ± 14.458
+
+🎯 Native State Candidate (Minimum Energy):
+   RMSD: 0.822 Å
+   Energy: -350.140
+
+📍 Closest to Reference (Minimum RMSD):
+   RMSD: 0.526 Å
+   Energy: -336.953
+
+================================================================================
+STEP 4: CORRELATION ANALYSIS (Clean Data)
+================================================================================
+
+📊 Correlation Metrics:
+   Pearson r: 0.6990 (p-value: 0.0000e+00)
+   Spearman ρ: 0.6878 (p-value: 0.0000e+00)
+   Kendall τ: 0.5001 (p-value: 1.4224e-295)
+   R²: 0.4887
+
+🔄 Bootstrapped Confidence Intervals (n=5000):
+   Progress: 1000/5000
+   Progress: 2000/5000
+   Progress: 3000/5000
+   Progress: 4000/5000
+   Progress: 5000/5000
+
+   Pearson r 95% CI: [0.6698, 0.7267]
+   Spearman ρ 95% CI: [0.6638, 0.7105]
+
+🛡️ Winsorized correlation (5% trimming):
+   r = 0.6746 (p = 5.0234e-319)
+
+================================================================================
+STEP 5: REGRESSION ANALYSIS (Clean Data)
+================================================================================
+
+📈 Linear Regression Results:
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       -332.1855      0.298  -1116.432      0.000    -332.769    -331.602
+x1             4.2255      0.088     47.910      0.000       4.053       4.398
+==============================================================================
+
+   R²: 0.4887
+   Adjusted R²: 0.4884
+   F-statistic: 2295.40 (p: 0.0000e+00)
+   AIC: 18057.40
+   BIC: 18068.97
+
+   Residual Analysis:
+   Mean: -0.0000
+   Std: 10.3391
+   Skewness: 0.2775
+   Kurtosis: 1.1073
+
+   Shapiro-Wilk: statistic=0.9872, p=7.3069e-14
+   Kolmogorov-Smirnov: statistic=0.4230, p=0.0000e+00
+
+   Diagnostic Tests:
+   Durbin-Watson: 1.7769
+   Breusch-Pagan: LM=532.56, p=7.8410e-118
+   White test: LM=548.90, p=6.4308e-120
+
+================================================================================
+STEP 6: NONLINEAR MODEL FITTING (Clean Data)
+================================================================================
+
+📊 Model Comparison:
+
+Exponential:
+  R² = 0.5374, RMSE = 9.8337, AIC = 10996.19
+
+Power Law:
+  R² = 0.5417, RMSE = 9.7876, AIC = 10973.59
+
+Logarithmic:
+  R² = 0.5427, RMSE = 9.7777, AIC = 10968.72
+
+Rational:
+  R² = 0.5435, RMSE = 9.7685, AIC = 10966.21
+
+🏆 Best model by AIC: Rational (AIC = 10966.21)
+
+================================================================================
+STEP 7: FUNNEL CHARACTERIZATION
+================================================================================
+
+⚡ Energy Gap (best vs second best): 0.0090
+
+📊 Energy by RMSD Percentile:
+  Percentile |  Count |  Mean Energy |  Std Dev |                Range
+---------------------------------------------------------------------------
+       0-10% |    241 |      -334.87 |     6.97 | [ -350.14,  -309.79]
+      10-25% |    360 |      -330.41 |     7.99 | [ -349.06,  -300.77]
+      25-50% |    601 |      -327.34 |     7.73 | [ -347.33,  -302.36]
+      50-75% |    603 |      -322.32 |     8.75 | [ -342.42,  -295.55]
+      75-90% |    362 |      -312.72 |    10.65 | [ -343.01,  -277.64]
+     90-100% |    241 |      -297.49 |    19.01 | [ -329.30,  -245.83]
+
+📈 ANOVA between RMSD tertiles: F = 752.43, p = 2.0128e-254
+
+================================================================================
+STEP 8: GENERATING PUBLICATION PLOTS
+================================================================================
+✓ Main plots saved as 'funnel_analysis_clean.png' and '.pdf'
+✓ Focused plot saved as 'funnel_focused_clean.png'
+
+📄 Final report saved as 'complete_funnel_analysis_report.txt'
+
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+  COMPLETE ANALYSIS FINISHED
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+================================================================================
+FINAL SUMMARY
+================================================================================
+• Clean data points: 2,404 (removed 96 outliers)
+• Pearson correlation: 0.6990
+• Spearman correlation: 0.6878
+• R² (linear): 0.4887
+• R² (best nonlinear): 0.5435
+• Native state RMSD: 0.822 Å
+• Bootstrap 95% CI: [0.6698, 0.7267]
+• Outlier impact: +0.2646 correlation improvement
+
+✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
+  ANALYSIS COMPLETED SUCCESSFULLY!
+✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
+
+Output files generated:
+  1. outlier_justification.png/pdf - Outlier detection plots
+  2. outlier_removal_justification.txt - Detailed justification report
+  3. funnel_analysis_clean.png/pdf - Main analysis plots
+  4. funnel_focused_clean.png - Focused native basin plots
+  5. complete_funnel_analysis_report.txt - Comprehensive final report
