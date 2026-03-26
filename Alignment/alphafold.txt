@@ -1,0 +1,106 @@
+PyMOL(TM) 2.4.1 - Incentive Product
+ Copyright (C) Schrodinger, LLC
+ 
+ This Executable Build integrates and extends Open-Source PyMOL.
+menu 'MyPlugin' exists
+Unable to initialize plugin 'CASTpyMOL_v3' (pmg_tk.startup.CASTpyMOL_v3).
+ Detected OpenGL version 4.6. Shaders available.
+ Detected GLSL version 4.60.
+ OpenGL graphics engine:
+  GL_VENDOR:   NVIDIA Corporation
+  GL_RENDERER: NVIDIA GeForce RTX 2060/PCIe/SSE2
+  GL_VERSION:  4.6.0 NVIDIA 560.94
+No License File - For Evaluation Only (0 days remaining)
+ Detected 12 CPU cores.  Enabled multithreaded rendering.
+ Executive: Loading version 2.004000 session...
+ Session was saved with: viewport 640, 515
+ Executive: Colored 936 atoms and 1 object.
+ Executive: Colored 936 atoms and 1 object.
+ Executive: Colored 936 atoms and 1 object.
+ Executive: Colored 936 atoms and 1 object.
+PyMOL>bg_color white
+ Executive: Colored 932 atoms and 1 object.
+ Match: read scoring matrix.
+ Match: assigning 117 x 117 pairwise scores.
+ MatchAlign: aligning residues (117 vs 117)...
+ MatchAlign: score 619.000
+ ExecutiveAlign: 117 atoms aligned.
+ ExecutiveRMS: 4 atoms rejected during cycle 1 (RMSD=0.55).
+ ExecutiveRMS: 5 atoms rejected during cycle 2 (RMSD=0.47).
+ ExecutiveRMS: 3 atoms rejected during cycle 3 (RMSD=0.41).
+ Executive: RMSD =    0.394 (105 to 105 atoms)
+ Executive: object "aln_all_to_1elw" created.
+ Match: read scoring matrix.
+ Match: assigning 117 x 117 pairwise scores.
+ MatchAlign: aligning residues (117 vs 117)...
+ MatchAlign: score 619.000
+ ExecutiveAlign: 117 atoms aligned.
+ ExecutiveRMS: 4 atoms rejected during cycle 1 (RMSD=0.59).
+ ExecutiveRMS: 6 atoms rejected during cycle 2 (RMSD=0.52).
+ Executive: RMSD =    0.460 (107 to 107 atoms)
+ Match: read scoring matrix.
+ Match: assigning 117 x 117 pairwise scores.
+ MatchAlign: aligning residues (117 vs 117)...
+ MatchAlign: score 619.000
+ ExecutiveAlign: 117 atoms aligned.
+ ExecutiveRMS: 4 atoms rejected during cycle 1 (RMSD=0.61).
+ ExecutiveRMS: 4 atoms rejected during cycle 2 (RMSD=0.54).
+ ExecutiveRMS: 1 atoms rejected during cycle 3 (RMSD=0.50).
+ Executive: RMSD =    0.489 (108 to 108 atoms)
+ Match: read scoring matrix.
+ Match: assigning 117 x 117 pairwise scores.
+ MatchAlign: aligning residues (117 vs 117)...
+ MatchAlign: score 619.000
+ ExecutiveAlign: 117 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=0.49).
+ ExecutiveRMS: 4 atoms rejected during cycle 2 (RMSD=0.40).
+ ExecutiveRMS: 2 atoms rejected during cycle 3 (RMSD=0.36).
+ Executive: RMSD =    0.351 (106 to 106 atoms)
+ Match: read scoring matrix.
+ Match: assigning 117 x 117 pairwise scores.
+ MatchAlign: aligning residues (117 vs 117)...
+ MatchAlign: score 619.000
+ ExecutiveAlign: 117 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=0.45).
+ ExecutiveRMS: 5 atoms rejected during cycle 2 (RMSD=0.35).
+ ExecutiveRMS: 2 atoms rejected during cycle 3 (RMSD=0.31).
+ Executive: RMSD =    0.300 (105 to 105 atoms)
+ Save: Please wait -- writing session file...
+ Save: wrote "C:/Users/PC1/PycharmProjects/pythonProject1/files/Gomboc/alphafold.pse".
+PyMOL>hide everything
+PyMOL>show ribbon
+PyMOL>set ray_trace_mode=0
+ Setting: ray_trace_mode set to 0.
+PyMOL>set ribbon_radius=0.3
+ Setting: ribbon_radius set to 0.30000.
+PyMOL>ray
+ Ray: render time: 0.31 sec. = 11501.6 frames/hour (0.31 sec. accum.).
+PyMOL>set sphere_transparency=0.5
+ Setting: sphere_transparency set to 0.50000.
+PyMOL>set ray_shadow=off
+ Setting: ray_shadow set to off.
+PyMOL>bg_color white
+PyMOL>ray
+ Ray: render time: 0.24 sec. = 14754.1 frames/hour (0.56 sec. accum.).
+ Executive: Colored 932 atoms and 1 object.
+PyMOL>ray
+ Ray: render time: 0.29 sec. = 12587.4 frames/hour (0.84 sec. accum.).
+ Executive: Colored 936 atoms and 1 object.
+ Executive: Colored 5612 atoms and 7 objects.
+ Executive: Colored 932 atoms and 1 object.
+PyMOL>ray
+ Ray: render time: 0.31 sec. = 11688.3 frames/hour (1.15 sec. accum.).
+ Executive: Colored 932 atoms and 1 object.
+PyMOL>ray
+ Ray: render time: 0.26 sec. = 13636.4 frames/hour (1.41 sec. accum.).
+ Save: Please wait -- writing session file...
+ Save: wrote "C:/Users/PC1/PycharmProjects/pythonProject1/files/Gomboc/alphafold.pse".
+ Executive: Colored 5612 atoms and 7 objects.
+ Executive: Colored 932 atoms and 1 object.
+PyMOL>ray
+ Ray: render time: 0.30 sec. = 11881.2 frames/hour (1.72 sec. accum.).
+ Executive: Colored 932 atoms and 1 object.
+PyMOL>ray
+ Ray: render time: 0.28 sec. = 12766.0 frames/hour (2.00 sec. accum.).
+ Save: Please wait -- writing session file...
+ Save: wrote "C:/Users/PC1/PycharmProjects/pythonProject1/files/Gomboc/alphafold.pse".

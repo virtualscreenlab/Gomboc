@@ -1,0 +1,105 @@
+ PyMOL(TM) 2.4.1 - Incentive Product
+ Copyright (C) Schrodinger, LLC
+ 
+ This Executable Build integrates and extends Open-Source PyMOL.
+menu 'MyPlugin' exists
+Unable to initialize plugin 'CASTpyMOL_v3' (pmg_tk.startup.CASTpyMOL_v3).
+ Detected OpenGL version 4.6. Shaders available.
+ Detected GLSL version 4.60.
+ OpenGL graphics engine:
+  GL_VENDOR:   NVIDIA Corporation
+  GL_RENDERER: NVIDIA GeForce RTX 2060/PCIe/SSE2
+  GL_VERSION:  4.6.0 NVIDIA 560.94
+No License File - For Evaluation Only (0 days remaining)
+ Detected 12 CPU cores.  Enabled multithreaded rendering.
+ Executive: Loading version 2.004000 session...
+ Session was saved with: viewport 640, 515
+PyMOL>ray
+ Ray: render time: 2.63 sec. = 1370.4 frames/hour (2.63 sec. accum.).
+PyMOL>bg_color, white
+NameError: name 'bg_color' is not defined
+PyMOL>bg_color white
+ Match: read scoring matrix.
+ Match: assigning 117 x 117 pairwise scores.
+ MatchAlign: aligning residues (117 vs 117)...
+ MatchAlign: score 619.000
+ ExecutiveAlign: 117 atoms aligned.
+ ExecutiveRMS: 6 atoms rejected during cycle 1 (RMSD=1.26).
+ ExecutiveRMS: 4 atoms rejected during cycle 2 (RMSD=0.93).
+ ExecutiveRMS: 6 atoms rejected during cycle 3 (RMSD=0.83).
+ ExecutiveRMS: 8 atoms rejected during cycle 4 (RMSD=0.69).
+ ExecutiveRMS: 3 atoms rejected during cycle 5 (RMSD=0.50).
+ Executive: RMSD =    0.434 (90 to 90 atoms)
+ Executive: object "aln_all_to_1elw" created.
+ Match: read scoring matrix.
+ Match: assigning 117 x 117 pairwise scores.
+ MatchAlign: aligning residues (117 vs 117)...
+ MatchAlign: score 619.000
+ ExecutiveAlign: 117 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=0.84).
+ ExecutiveRMS: 2 atoms rejected during cycle 2 (RMSD=0.70).
+ ExecutiveRMS: 2 atoms rejected during cycle 3 (RMSD=0.67).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.65).
+ ExecutiveRMS: 1 atoms rejected during cycle 5 (RMSD=0.64).
+ Executive: RMSD =    0.630 (106 to 106 atoms)
+ Match: read scoring matrix.
+ Match: assigning 117 x 117 pairwise scores.
+ MatchAlign: aligning residues (117 vs 117)...
+ MatchAlign: score 619.000
+ ExecutiveAlign: 117 atoms aligned.
+ ExecutiveRMS: 6 atoms rejected during cycle 1 (RMSD=0.97).
+ ExecutiveRMS: 2 atoms rejected during cycle 2 (RMSD=0.77).
+ ExecutiveRMS: 1 atoms rejected during cycle 3 (RMSD=0.74).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.73).
+ Executive: RMSD =    0.721 (107 to 107 atoms)
+ Match: read scoring matrix.
+ Match: assigning 117 x 117 pairwise scores.
+ MatchAlign: aligning residues (117 vs 117)...
+ MatchAlign: score 619.000
+ ExecutiveAlign: 117 atoms aligned.
+ ExecutiveRMS: 4 atoms rejected during cycle 1 (RMSD=0.88).
+ ExecutiveRMS: 5 atoms rejected during cycle 2 (RMSD=0.73).
+ ExecutiveRMS: 3 atoms rejected during cycle 3 (RMSD=0.66).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.62).
+ ExecutiveRMS: 2 atoms rejected during cycle 5 (RMSD=0.61).
+ Executive: RMSD =    0.590 (102 to 102 atoms)
+ Match: read scoring matrix.
+ Match: assigning 117 x 117 pairwise scores.
+ MatchAlign: aligning residues (117 vs 117)...
+ MatchAlign: score 619.000
+ ExecutiveAlign: 117 atoms aligned.
+ ExecutiveRMS: 6 atoms rejected during cycle 1 (RMSD=1.17).
+ ExecutiveRMS: 5 atoms rejected during cycle 2 (RMSD=0.92).
+ ExecutiveRMS: 5 atoms rejected during cycle 3 (RMSD=0.80).
+ ExecutiveRMS: 6 atoms rejected during cycle 4 (RMSD=0.71).
+ ExecutiveRMS: 3 atoms rejected during cycle 5 (RMSD=0.59).
+ Executive: RMSD =    0.514 (92 to 92 atoms)
+ Save: Please wait -- writing session file...
+ Save: wrote "C:/Users/PC1/PycharmProjects/pythonProject1/files/Gomboc/rosetta.pse".
+PyMOL>hide everything
+PyMOL>show ribbon
+PyMOL>set ray_trace_mode=0
+ Setting: ray_trace_mode set to 0.
+PyMOL>set ribbon_radius=0.3
+ Setting: ribbon_radius set to 0.30000.
+PyMOL>set ribbon_radius=0.5
+ Setting: ribbon_radius set to 0.50000.
+PyMOL>ray
+ Ray: render time: 0.41 sec. = 8867.0 frames/hour (3.03 sec. accum.).
+PyMOL>set ribbon_radius=0.3
+ Setting: ribbon_radius set to 0.30000.
+PyMOL>ray
+ Ray: render time: 0.36 sec. = 9890.1 frames/hour (3.40 sec. accum.).
+PyMOL>set sphere_transparency=0.5
+ Setting: sphere_transparency set to 0.50000.
+PyMOL>set ray_shadow=off
+ Setting: ray_shadow set to off.
+PyMOL>bg_color white
+PyMOL>ray
+ Ray: render time: 0.32 sec. = 11320.8 frames/hour (3.71 sec. accum.).
+ Executive: Colored 10152 atoms and 7 objects.
+ Executive: Colored 932 atoms and 1 object.
+PyMOL>ray
+ Ray: render time: 0.34 sec. = 10619.5 frames/hour (4.05 sec. accum.).
+ Save: Please wait -- writing session file...
+ Save: wrote "C:/Users/PC1/PycharmProjects/pythonProject1/files/Gomboc/rosetta.pse".
