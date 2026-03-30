@@ -1,0 +1,892 @@
+n_experiments=100
+Results:
+
+r = 0.00000000
+==========================================================================================
+   Gömböc – Protein Folding Analogy    
+==========================================================================================
+Native energy: 314.7
+
+════════════════════════════════════════════════════════════════════════════════
+  MULTIPLE FOLDING SIMULATIONS  
+════════════════════════════════════════════════════════════════════════════════
+Run  1 | 139.1 ↓  27.7   RMSD 0.294   steps  20   👍 GOOD
+Run  2 | 178.9 ↓  28.8   RMSD 0.303   steps  20   🔄 NEAR-NATIVE
+Run  3 | 173.5 ↓  32.6   RMSD 0.296   steps  17   👍 GOOD
+Run  4 | 183.4 ↓  41.5   RMSD 0.386   steps  17   🔄 NEAR-NATIVE
+Run  5 | 187.3 ↓  35.4   RMSD 0.377   steps  16   🔄 NEAR-NATIVE
+Run  6 | 131.2 ↓  19.8   RMSD 0.263   steps  28   👍 GOOD
+Run  7 | 142.9 ↓  15.6   RMSD 0.215   steps  23   👍 GOOD
+Run  8 | 194.9 ↓  37.6   RMSD 0.359   steps  16   🔄 NEAR-NATIVE
+Run  9 | 130.5 ↓  22.3   RMSD 0.191   steps  19   ✅ SUCCESS
+Run 10 | 199.9 ↓  39.2   RMSD 0.401   steps  28   ⚠️ MISFOLDED
+Run 11 | 144.0 ↓  25.9   RMSD 0.232   steps  22   👍 GOOD
+Run 12 | 168.0 ↓  32.8   RMSD 0.332   steps  24   🔄 NEAR-NATIVE
+Run 13 | 136.2 ↓  17.7   RMSD 0.249   steps  20   👍 GOOD
+Run 14 | 168.5 ↓  18.7   RMSD 0.198   steps  18   ✅ SUCCESS
+Run 15 | 161.5 ↓  27.0   RMSD 0.287   steps  22   👍 GOOD
+Run 16 | 187.8 ↓  41.0   RMSD 0.306   steps  12   🔄 NEAR-NATIVE
+Run 17 | 165.9 ↓  29.3   RMSD 0.277   steps  20   👍 GOOD
+Run 18 | 134.7 ↓  28.5   RMSD 0.195   steps  17   ✅ SUCCESS
+Run 19 | 156.1 ↓  33.7   RMSD 0.371   steps  14   🔄 NEAR-NATIVE
+Run 20 | 185.0 ↓  32.1   RMSD 0.352   steps  18   🔄 NEAR-NATIVE
+Run 21 | 138.9 ↓  22.9   RMSD 0.252   steps  21   👍 GOOD
+Run 22 | 198.3 ↓  46.0   RMSD 0.351   steps  16   🔄 NEAR-NATIVE
+Run 23 | 207.8 ↓  43.2   RMSD 0.423   steps  16   ⚠️ MISFOLDED
+Run 24 | 142.8 ↓  13.9   RMSD 0.204   steps  17   👍 GOOD
+Run 25 | 146.4 ↓  36.3   RMSD 0.289   steps  17   👍 GOOD
+Run 26 | 144.7 ↓  25.4   RMSD 0.248   steps  16   👍 GOOD
+Run 27 | 177.5 ↓  42.0   RMSD 0.474   steps  31   ⚠️ MISFOLDED
+Run 28 | 127.0 ↓  28.0   RMSD 0.241   steps  18   👍 GOOD
+Run 29 | 165.5 ↓  24.2   RMSD 0.272   steps  20   👍 GOOD
+Run 30 | 167.2 ↓  16.9   RMSD 0.209   steps  34   👍 GOOD
+Run 31 | 119.4 ↓  22.8   RMSD 0.222   steps  11   👍 GOOD
+Run 32 | 157.8 ↓  35.5   RMSD 0.332   steps  14   🔄 NEAR-NATIVE
+Run 33 | 130.8 ↓  20.6   RMSD 0.240   steps  38   👍 GOOD
+Run 34 | 210.3 ↓  32.0   RMSD 0.367   steps  19   🔄 NEAR-NATIVE
+Run 35 | 164.2 ↓  28.5   RMSD 0.351   steps  18   🔄 NEAR-NATIVE
+Run 36 | 153.5 ↓  24.5   RMSD 0.250   steps  11   👍 GOOD
+Run 37 | 136.9 ↓  27.5   RMSD 0.278   steps  33   👍 GOOD
+Run 38 | 175.5 ↓  22.9   RMSD 0.321   steps  25   🔄 NEAR-NATIVE
+Run 39 | 116.7 ↓  23.7   RMSD 0.202   steps  14   👍 GOOD
+Run 40 | 180.9 ↓  29.0   RMSD 0.306   steps  25   🔄 NEAR-NATIVE
+Run 41 | 145.6 ↓  30.7   RMSD 0.273   steps  15   👍 GOOD
+Run 42 | 115.9 ↓  14.4   RMSD 0.184   steps  31   ✅ SUCCESS
+Run 43 | 176.6 ↓  24.8   RMSD 0.321   steps  20   🔄 NEAR-NATIVE
+Run 44 | 158.6 ↓  41.3   RMSD 0.434   steps  14   ⚠️ MISFOLDED
+Run 45 | 143.8 ↓  17.6   RMSD 0.207   steps  23   👍 GOOD
+Run 46 | 147.5 ↓  25.9   RMSD 0.284   steps  21   👍 GOOD
+Run 47 | 110.8 ↓  20.0   RMSD 0.236   steps  15   👍 GOOD
+Run 48 | 159.4 ↓  16.2   RMSD 0.226   steps  30   👍 GOOD
+Run 49 | 117.4 ↓  23.7   RMSD 0.231   steps  22   👍 GOOD
+Run 50 | 161.5 ↓  29.9   RMSD 0.306   steps  20   🔄 NEAR-NATIVE
+Run 51 | 143.9 ↓  14.5   RMSD 0.210   steps  21   👍 GOOD
+Run 52 | 146.5 ↓  18.4   RMSD 0.234   steps  37   👍 GOOD
+Run 53 | 130.3 ↓  13.6   RMSD 0.173   steps  26   ✅ SUCCESS
+Run 54 | 143.4 ↓  24.7   RMSD 0.254   steps  23   👍 GOOD
+Run 55 | 131.9 ↓  22.1   RMSD 0.265   steps  13   👍 GOOD
+Run 56 | 200.2 ↓  39.7   RMSD 0.432   steps  19   ⚠️ MISFOLDED
+Run 57 | 140.8 ↓  29.0   RMSD 0.276   steps  22   👍 GOOD
+Run 58 | 134.2 ↓  31.3   RMSD 0.264   steps  14   👍 GOOD
+Run 59 | 134.7 ↓  25.8   RMSD 0.198   steps  41   ✅ SUCCESS
+Run 60 | 199.9 ↓  32.4   RMSD 0.346   steps  26   🔄 NEAR-NATIVE
+Run 61 | 147.9 ↓  27.4   RMSD 0.314   steps  12   🔄 NEAR-NATIVE
+Run 62 | 138.7 ↓  18.7   RMSD 0.185   steps  16   ✅ SUCCESS
+Run 63 | 176.4 ↓  29.7   RMSD 0.321   steps  11   🔄 NEAR-NATIVE
+Run 64 | 161.4 ↓  25.0   RMSD 0.297   steps  23   👍 GOOD
+Run 65 | 167.4 ↓  29.9   RMSD 0.274   steps  27   👍 GOOD
+Run 66 | 166.1 ↓  31.3   RMSD 0.394   steps  21   🔄 NEAR-NATIVE
+Run 67 | 121.0 ↓  21.8   RMSD 0.183   steps  22   ✅ SUCCESS
+Run 68 | 132.2 ↓  14.7   RMSD 0.184   steps  16   ✅ SUCCESS
+Run 69 | 202.7 ↓  37.3   RMSD 0.365   steps  17   🔄 NEAR-NATIVE
+Run 70 | 152.2 ↓  25.5   RMSD 0.310   steps  19   🔄 NEAR-NATIVE
+Run 71 | 169.5 ↓  21.4   RMSD 0.249   steps  49   👍 GOOD
+Run 72 | 159.8 ↓  35.9   RMSD 0.304   steps  21   🔄 NEAR-NATIVE
+Run 73 | 168.3 ↓  32.1   RMSD 0.338   steps  23   🔄 NEAR-NATIVE
+Run 74 | 123.9 ↓  26.9   RMSD 0.233   steps  18   👍 GOOD
+Run 75 | 175.0 ↓  31.2   RMSD 0.374   steps  27   🔄 NEAR-NATIVE
+Run 76 | 171.8 ↓  22.9   RMSD 0.268   steps  22   👍 GOOD
+Run 77 | 179.7 ↓  37.6   RMSD 0.420   steps  20   ⚠️ MISFOLDED
+Run 78 | 158.0 ↓  25.9   RMSD 0.287   steps  21   👍 GOOD
+Run 79 | 195.4 ↓  39.7   RMSD 0.388   steps  17   🔄 NEAR-NATIVE
+Run 80 | 156.3 ↓  24.9   RMSD 0.257   steps  40   👍 GOOD
+Run 81 | 154.8 ↓  29.2   RMSD 0.300   steps  13   🔄 NEAR-NATIVE
+Run 82 | 144.4 ↓  33.7   RMSD 0.299   steps  23   👍 GOOD
+Run 83 | 141.7 ↓  35.8   RMSD 0.367   steps  15   🔄 NEAR-NATIVE
+Run 84 | 140.9 ↓  21.6   RMSD 0.267   steps  15   👍 GOOD
+Run 85 | 169.4 ↓  42.4   RMSD 0.422   steps  18   ⚠️ MISFOLDED
+Run 86 | 121.6 ↓  15.2   RMSD 0.177   steps  16   ✅ SUCCESS
+Run 87 | 120.5 ↓  19.9   RMSD 0.239   steps  15   👍 GOOD
+Run 88 | 147.0 ↓  24.9   RMSD 0.263   steps  26   👍 GOOD
+Run 89 | 151.7 ↓  21.0   RMSD 0.230   steps  16   👍 GOOD
+Run 90 |  99.4 ↓  14.9   RMSD 0.202   steps  15   👍 GOOD
+Run 91 | 181.4 ↓  16.5   RMSD 0.244   steps  19   👍 GOOD
+Run 92 | 130.5 ↓  29.4   RMSD 0.318   steps  25   🔄 NEAR-NATIVE
+Run 93 | 197.4 ↓  13.1   RMSD 0.199   steps  30   ✅ SUCCESS
+Run 94 | 149.5 ↓  32.1   RMSD 0.328   steps  21   🔄 NEAR-NATIVE
+Run 95 | 184.8 ↓  25.9   RMSD 0.319   steps  40   🔄 NEAR-NATIVE
+Run 96 | 199.4 ↓  24.2   RMSD 0.289   steps  19   👍 GOOD
+Run 97 | 139.2 ↓  18.5   RMSD 0.227   steps  27   👍 GOOD
+Run 98 | 201.6 ↓  50.2   RMSD 0.396   steps  20   🔄 NEAR-NATIVE
+Run 99 | 114.5 ↓  17.1   RMSD 0.208   steps  13   👍 GOOD
+Run 100 | 190.6 ↓  35.1   RMSD 0.354   steps  21   🔄 NEAR-NATIVE
+
+────────────────────────────────────────────────────────────────────────────────
+SUMMARY STATISTICS
+Native energy:       314.7
+Avg initial E:       156.8 ± 25.5
+Avg final E:          27.3 ± 8.2
+Avg energy drop:     129.5 ± 21.7
+Avg final RMSD:      0.287 ± 0.069
+Avg steps:           21
+
+Outcome distribution:
+  • 🏆 Perfect      (RMSD ≤ 0.12) :   0.0%
+  • ✅ Successful   (≤ 0.20)     :  11.0%
+  • 👍 Good         (≤ 0.30)     :  49.0%
+  • 🔄 Near-native  (≤ 0.40)     :  33.0%
+  • ⚠️  Misfolded    (≤ 0.55)     :   7.0%
+  • ❌ Poor         (> 0.55)      :  -0.0%
+
+r = 0.00000001
+==========================================================================================
+   Gömböc – Protein Folding Analogy    
+==========================================================================================
+Native energy: 314.7
+
+════════════════════════════════════════════════════════════════════════════════
+  MULTIPLE FOLDING SIMULATIONS  
+════════════════════════════════════════════════════════════════════════════════
+Run  1 | 147.0 ↓  29.6   RMSD 0.270   steps  47   👍 GOOD
+Run  2 | 127.1 ↓  20.0   RMSD 0.256   steps  73   👍 GOOD
+Run  3 | 125.4 ↓  23.0   RMSD 0.191   steps  51   ✅ SUCCESS
+Run  4 | 121.3 ↓  26.5   RMSD 0.213   steps  24   👍 GOOD
+Run  5 |  98.7 ↓  26.6   RMSD 0.209   steps  54   👍 GOOD
+Run  6 | 169.5 ↓  33.6   RMSD 0.403   steps  52   ⚠️ MISFOLDED
+Run  7 | 163.6 ↓  28.4   RMSD 0.300   steps  42   🔄 NEAR-NATIVE
+Run  8 | 149.2 ↓  32.4   RMSD 0.264   steps  32   👍 GOOD
+Run  9 | 170.5 ↓  34.3   RMSD 0.315   steps  57   🔄 NEAR-NATIVE
+Run 10 | 205.4 ↓  51.8   RMSD 0.467   steps  23   ⚠️ MISFOLDED
+Run 11 | 165.3 ↓  35.0   RMSD 0.334   steps  48   🔄 NEAR-NATIVE
+Run 12 | 156.8 ↓  19.7   RMSD 0.237   steps  61   👍 GOOD
+Run 13 | 152.1 ↓  40.8   RMSD 0.398   steps  22   🔄 NEAR-NATIVE
+Run 14 | 155.5 ↓  36.5   RMSD 0.274   steps  35   👍 GOOD
+Run 15 | 120.9 ↓  27.6   RMSD 0.252   steps  92   👍 GOOD
+Run 16 | 168.0 ↓  21.3   RMSD 0.252   steps  55   👍 GOOD
+Run 17 | 187.2 ↓  31.8   RMSD 0.274   steps  33   👍 GOOD
+Run 18 | 211.2 ↓  36.4   RMSD 0.354   steps  53   🔄 NEAR-NATIVE
+Run 19 | 171.4 ↓  41.9   RMSD 0.342   steps  29   🔄 NEAR-NATIVE
+Run 20 | 168.0 ↓  32.4   RMSD 0.372   steps  47   🔄 NEAR-NATIVE
+Run 21 | 177.8 ↓  56.5   RMSD 0.487   steps  40   ⚠️ MISFOLDED
+Run 22 | 128.1 ↓  30.9   RMSD 0.246   steps  54   👍 GOOD
+Run 23 | 150.2 ↓  46.0   RMSD 0.382   steps  23   🔄 NEAR-NATIVE
+Run 24 | 165.1 ↓  31.5   RMSD 0.283   steps  30   👍 GOOD
+Run 25 | 169.0 ↓  38.4   RMSD 0.349   steps  48   🔄 NEAR-NATIVE
+Run 26 | 195.4 ↓  43.8   RMSD 0.446   steps  48   ⚠️ MISFOLDED
+Run 27 | 136.8 ↓  28.9   RMSD 0.262   steps  43   👍 GOOD
+Run 28 | 163.3 ↓  38.7   RMSD 0.293   steps  32   👍 GOOD
+Run 29 | 126.5 ↓  22.6   RMSD 0.241   steps  50   👍 GOOD
+Run 30 | 177.8 ↓  43.2   RMSD 0.453   steps  40   ⚠️ MISFOLDED
+Run 31 | 189.1 ↓  27.5   RMSD 0.334   steps  32   🔄 NEAR-NATIVE
+Run 32 | 115.1 ↓  23.0   RMSD 0.220   steps  56   👍 GOOD
+Run 33 | 172.0 ↓  30.6   RMSD 0.310   steps  50   🔄 NEAR-NATIVE
+Run 34 | 130.6 ↓  19.8   RMSD 0.220   steps  47   👍 GOOD
+Run 35 | 164.6 ↓  25.1   RMSD 0.277   steps  45   👍 GOOD
+Run 36 | 157.4 ↓  23.1   RMSD 0.271   steps  65   👍 GOOD
+Run 37 | 131.8 ↓  16.1   RMSD 0.233   steps  56   👍 GOOD
+Run 38 | 187.1 ↓  49.9   RMSD 0.461   steps  24   ⚠️ MISFOLDED
+Run 39 | 120.9 ↓  34.5   RMSD 0.285   steps  43   👍 GOOD
+Run 40 | 115.3 ↓  41.2   RMSD 0.299   steps  42   👍 GOOD
+Run 41 | 183.3 ↓  30.7   RMSD 0.327   steps  43   🔄 NEAR-NATIVE
+Run 42 | 157.3 ↓  44.0   RMSD 0.383   steps  23   🔄 NEAR-NATIVE
+Run 43 | 173.4 ↓  34.8   RMSD 0.352   steps  61   🔄 NEAR-NATIVE
+Run 44 | 198.0 ↓  48.5   RMSD 0.452   steps  34   ⚠️ MISFOLDED
+Run 45 | 161.1 ↓  45.7   RMSD 0.349   steps  20   🔄 NEAR-NATIVE
+Run 46 | 115.9 ↓  19.5   RMSD 0.201   steps  79   👍 GOOD
+Run 47 | 159.5 ↓  30.1   RMSD 0.325   steps  48   🔄 NEAR-NATIVE
+Run 48 | 154.6 ↓  40.4   RMSD 0.344   steps  40   🔄 NEAR-NATIVE
+Run 49 | 179.5 ↓  35.4   RMSD 0.364   steps  42   🔄 NEAR-NATIVE
+Run 50 | 172.3 ↓  36.3   RMSD 0.373   steps  51   🔄 NEAR-NATIVE
+Run 51 | 176.7 ↓  42.1   RMSD 0.393   steps  53   🔄 NEAR-NATIVE
+Run 52 | 168.7 ↓  25.3   RMSD 0.277   steps  47   👍 GOOD
+Run 53 | 197.8 ↓  45.5   RMSD 0.406   steps  50   ⚠️ MISFOLDED
+Run 54 |  99.0 ↓  15.0   RMSD 0.193   steps 107   ✅ SUCCESS
+Run 55 | 208.7 ↓  30.8   RMSD 0.349   steps  59   🔄 NEAR-NATIVE
+Run 56 | 120.7 ↓  25.2   RMSD 0.245   steps  54   👍 GOOD
+Run 57 | 135.7 ↓  19.0   RMSD 0.200   steps  65   ✅ SUCCESS
+Run 58 | 174.3 ↓  38.9   RMSD 0.407   steps  32   ⚠️ MISFOLDED
+Run 59 | 143.8 ↓  33.2   RMSD 0.370   steps  47   🔄 NEAR-NATIVE
+Run 60 | 187.6 ↓  29.7   RMSD 0.330   steps  56   🔄 NEAR-NATIVE
+Run 61 | 203.3 ↓  53.9   RMSD 0.447   steps  36   ⚠️ MISFOLDED
+Run 62 | 184.2 ↓  28.0   RMSD 0.229   steps  49   👍 GOOD
+Run 63 | 135.8 ↓  31.3   RMSD 0.325   steps  43   🔄 NEAR-NATIVE
+Run 64 | 140.5 ↓  24.4   RMSD 0.238   steps  66   👍 GOOD
+Run 65 | 198.1 ↓  67.5   RMSD 0.529   steps  30   ⚠️ MISFOLDED
+Run 66 | 181.5 ↓  44.7   RMSD 0.441   steps  39   ⚠️ MISFOLDED
+Run 67 | 146.0 ↓  31.7   RMSD 0.311   steps  43   🔄 NEAR-NATIVE
+Run 68 | 153.8 ↓  36.0   RMSD 0.270   steps  56   👍 GOOD
+Run 69 | 151.2 ↓  20.2   RMSD 0.195   steps  44   ✅ SUCCESS
+Run 70 | 144.7 ↓  27.8   RMSD 0.274   steps  42   👍 GOOD
+Run 71 | 198.8 ↓  27.5   RMSD 0.284   steps  50   👍 GOOD
+Run 72 | 210.2 ↓  43.1   RMSD 0.387   steps  29   🔄 NEAR-NATIVE
+Run 73 | 109.9 ↓  31.2   RMSD 0.249   steps  24   👍 GOOD
+Run 74 | 157.7 ↓  26.7   RMSD 0.283   steps  58   👍 GOOD
+Run 75 | 126.3 ↓  16.2   RMSD 0.210   steps  60   👍 GOOD
+Run 76 | 102.5 ↓  35.8   RMSD 0.227   steps  41   👍 GOOD
+Run 77 | 143.2 ↓  21.7   RMSD 0.204   steps  49   👍 GOOD
+Run 78 | 173.0 ↓  35.6   RMSD 0.376   steps  50   🔄 NEAR-NATIVE
+Run 79 | 172.9 ↓  42.2   RMSD 0.368   steps  62   🔄 NEAR-NATIVE
+Run 80 | 128.2 ↓  27.5   RMSD 0.191   steps  58   ✅ SUCCESS
+Run 81 | 172.1 ↓  33.5   RMSD 0.321   steps  20   🔄 NEAR-NATIVE
+Run 82 | 113.0 ↓  20.0   RMSD 0.178   steps 124   ✅ SUCCESS
+Run 83 | 154.8 ↓  25.5   RMSD 0.244   steps  45   👍 GOOD
+Run 84 | 159.5 ↓  30.0   RMSD 0.335   steps  81   🔄 NEAR-NATIVE
+Run 85 | 184.4 ↓  43.4   RMSD 0.446   steps  32   ⚠️ MISFOLDED
+Run 86 | 112.7 ↓  18.7   RMSD 0.254   steps  73   👍 GOOD
+Run 87 | 122.4 ↓  39.9   RMSD 0.283   steps  34   👍 GOOD
+Run 88 | 129.7 ↓  31.1   RMSD 0.259   steps  37   👍 GOOD
+Run 89 | 150.9 ↓  36.0   RMSD 0.280   steps  55   👍 GOOD
+Run 90 | 132.8 ↓  48.4   RMSD 0.436   steps  42   ⚠️ MISFOLDED
+Run 91 | 204.2 ↓  55.5   RMSD 0.513   steps  29   ⚠️ MISFOLDED
+Run 92 | 129.6 ↓  22.2   RMSD 0.223   steps  36   👍 GOOD
+Run 93 | 173.7 ↓  24.3   RMSD 0.323   steps  72   🔄 NEAR-NATIVE
+Run 94 | 166.6 ↓  45.8   RMSD 0.461   steps  34   ⚠️ MISFOLDED
+Run 95 | 143.8 ↓  22.8   RMSD 0.256   steps  49   👍 GOOD
+Run 96 | 218.2 ↓  57.7   RMSD 0.581   steps  52   ❌ POOR
+Run 97 | 187.9 ↓  39.0   RMSD 0.346   steps  35   🔄 NEAR-NATIVE
+Run 98 | 129.3 ↓  37.8   RMSD 0.225   steps  24   👍 GOOD
+Run 99 | 135.6 ↓  24.7   RMSD 0.269   steps  39   👍 GOOD
+Run 100 | 161.2 ↓  33.8   RMSD 0.320   steps  36   🔄 NEAR-NATIVE
+
+────────────────────────────────────────────────────────────────────────────────
+SUMMARY STATISTICS
+Native energy:       314.7
+Avg initial E:       157.2 ± 28.3
+Avg final E:          33.3 ± 10.3
+Avg energy drop:     123.9 ± 23.9
+Avg final RMSD:      0.316 ± 0.086
+Avg steps:           47
+
+Outcome distribution:
+  • 🏆 Perfect      (RMSD ≤ 0.12) :   0.0%
+  • ✅ Successful   (≤ 0.20)     :   6.0%
+  • 👍 Good         (≤ 0.30)     :  44.0%
+  • 🔄 Near-native  (≤ 0.40)     :  33.0%
+  • ⚠️  Misfolded    (≤ 0.55)     :  16.0%
+  • ❌ Poor         (> 0.55)      :   1.0%
+
+r = 0.0000001
+==========================================================================================
+   Gömböc – Protein Folding Analogy    
+==========================================================================================
+Native energy: 314.7
+
+
+════════════════════════════════════════════════════════════════════════════════
+  MULTIPLE FOLDING SIMULATIONS  
+════════════════════════════════════════════════════════════════════════════════
+Run  1 | 170.0 ↓ 103.6   RMSD 0.595   steps  78   ❌ POOR
+Run  2 | 160.2 ↓ 103.1   RMSD 0.478   steps  13   ⚠️ MISFOLDED
+Run  3 | 182.7 ↓  77.3   RMSD 0.421   steps 118   ⚠️ MISFOLDED
+Run  4 | 182.4 ↓ 135.5   RMSD 0.611   steps  39   ❌ POOR
+Run  5 | 134.0 ↓  82.3   RMSD 0.351   steps  91   🔄 NEAR-NATIVE
+Run  6 | 158.0 ↓  86.9   RMSD 0.530   steps  48   ⚠️ MISFOLDED
+Run  7 | 148.6 ↓  86.9   RMSD 0.411   steps  69   ⚠️ MISFOLDED
+Run  8 | 111.4 ↓  50.7   RMSD 0.326   steps  97   🔄 NEAR-NATIVE
+Run  9 | 181.3 ↓ 125.5   RMSD 0.480   steps 101   ⚠️ MISFOLDED
+Run 10 | 184.0 ↓ 118.9   RMSD 0.608   steps  19   ❌ POOR
+Run 11 | 134.5 ↓  80.1   RMSD 0.315   steps  77   🔄 NEAR-NATIVE
+Run 12 | 111.5 ↓  72.0   RMSD 0.326   steps  69   🔄 NEAR-NATIVE
+Run 13 | 162.4 ↓  94.6   RMSD 0.515   steps  58   ⚠️ MISFOLDED
+Run 14 | 186.2 ↓  93.8   RMSD 0.578   steps 130   ❌ POOR
+Run 15 |  97.7 ↓  60.2   RMSD 0.267   steps  31   👍 GOOD
+Run 16 | 200.0 ↓  96.7   RMSD 0.541   steps  59   ⚠️ MISFOLDED
+Run 17 | 137.9 ↓  75.5   RMSD 0.353   steps  48   🔄 NEAR-NATIVE
+Run 18 | 154.4 ↓ 138.1   RMSD 0.483   steps  31   ⚠️ MISFOLDED
+Run 19 | 133.9 ↓  79.4   RMSD 0.322   steps  31   🔄 NEAR-NATIVE
+Run 20 | 119.2 ↓  65.1   RMSD 0.366   steps 102   🔄 NEAR-NATIVE
+Run 21 | 167.1 ↓  85.4   RMSD 0.476   steps  65   ⚠️ MISFOLDED
+Run 22 | 152.3 ↓  53.3   RMSD 0.303   steps  59   🔄 NEAR-NATIVE
+Run 23 | 186.6 ↓ 129.3   RMSD 0.609   steps  30   ❌ POOR
+Run 24 | 205.7 ↓ 132.4   RMSD 0.631   steps  48   ❌ POOR
+Run 25 | 150.1 ↓  87.8   RMSD 0.406   steps 113   ⚠️ MISFOLDED
+Run 26 | 140.6 ↓ 101.4   RMSD 0.465   steps 100   ⚠️ MISFOLDED
+Run 27 | 173.5 ↓  73.8   RMSD 0.396   steps 120   🔄 NEAR-NATIVE
+Run 28 | 121.3 ↓  41.0   RMSD 0.271   steps  76   👍 GOOD
+Run 29 | 168.7 ↓  67.1   RMSD 0.405   steps  53   ⚠️ MISFOLDED
+Run 30 | 150.5 ↓  99.4   RMSD 0.397   steps  49   🔄 NEAR-NATIVE
+Run 31 | 166.1 ↓ 102.6   RMSD 0.429   steps  41   ⚠️ MISFOLDED
+Run 32 | 158.5 ↓ 108.1   RMSD 0.532   steps  62   ⚠️ MISFOLDED
+Run 33 | 139.6 ↓  60.2   RMSD 0.408   steps  57   ⚠️ MISFOLDED
+Run 34 | 124.5 ↓  57.6   RMSD 0.275   steps 107   👍 GOOD
+Run 35 | 194.1 ↓  86.3   RMSD 0.457   steps  90   ⚠️ MISFOLDED
+Run 36 | 147.2 ↓ 110.2   RMSD 0.339   steps  31   🔄 NEAR-NATIVE
+Run 37 | 108.7 ↓  70.4   RMSD 0.317   steps  12   🔄 NEAR-NATIVE
+Run 38 | 155.1 ↓  83.1   RMSD 0.346   steps  19   🔄 NEAR-NATIVE
+Run 39 | 190.9 ↓ 112.1   RMSD 0.527   steps 126   ⚠️ MISFOLDED
+Run 40 | 204.9 ↓ 112.1   RMSD 0.592   steps  36   ❌ POOR
+Run 41 | 131.9 ↓  60.5   RMSD 0.303   steps  57   🔄 NEAR-NATIVE
+Run 42 | 176.5 ↓ 111.3   RMSD 0.602   steps  56   ❌ POOR
+Run 43 | 139.9 ↓  85.7   RMSD 0.427   steps  47   ⚠️ MISFOLDED
+Run 44 | 125.9 ↓  97.0   RMSD 0.395   steps  44   🔄 NEAR-NATIVE
+Run 45 |  99.5 ↓  64.2   RMSD 0.294   steps  50   👍 GOOD
+Run 46 | 203.7 ↓ 131.0   RMSD 0.607   steps  83   ❌ POOR
+Run 47 | 121.8 ↓  70.7   RMSD 0.395   steps  54   🔄 NEAR-NATIVE
+Run 48 | 122.4 ↓  94.4   RMSD 0.318   steps  59   🔄 NEAR-NATIVE
+Run 49 | 133.0 ↓  47.6   RMSD 0.319   steps 105   🔄 NEAR-NATIVE
+Run 50 | 191.9 ↓  85.7   RMSD 0.533   steps 105   ⚠️ MISFOLDED
+Run 51 | 144.4 ↓  79.5   RMSD 0.345   steps  28   🔄 NEAR-NATIVE
+Run 52 | 207.3 ↓ 105.0   RMSD 0.659   steps 106   ❌ POOR
+Run 53 | 122.0 ↓  62.5   RMSD 0.356   steps  33   🔄 NEAR-NATIVE
+Run 54 | 179.2 ↓  87.7   RMSD 0.513   steps 121   ⚠️ MISFOLDED
+Run 55 | 146.8 ↓  89.6   RMSD 0.328   steps 119   🔄 NEAR-NATIVE
+Run 56 | 133.2 ↓  79.7   RMSD 0.463   steps  98   ⚠️ MISFOLDED
+Run 57 | 147.1 ↓  74.1   RMSD 0.317   steps  43   🔄 NEAR-NATIVE
+Run 58 | 197.0 ↓ 103.1   RMSD 0.525   steps  49   ⚠️ MISFOLDED
+Run 59 | 173.6 ↓ 112.5   RMSD 0.507   steps 107   ⚠️ MISFOLDED
+Run 60 | 118.7 ↓  60.3   RMSD 0.314   steps 115   🔄 NEAR-NATIVE
+Run 61 | 163.7 ↓  90.6   RMSD 0.446   steps  18   ⚠️ MISFOLDED
+Run 62 | 167.8 ↓  95.9   RMSD 0.443   steps  54   ⚠️ MISFOLDED
+Run 63 | 123.9 ↓  70.4   RMSD 0.330   steps  43   🔄 NEAR-NATIVE
+Run 64 | 175.1 ↓  97.4   RMSD 0.532   steps  83   ⚠️ MISFOLDED
+Run 65 | 147.8 ↓  71.5   RMSD 0.326   steps  58   🔄 NEAR-NATIVE
+Run 66 | 112.9 ↓  58.9   RMSD 0.278   steps  82   👍 GOOD
+Run 67 | 174.2 ↓  91.6   RMSD 0.523   steps 103   ⚠️ MISFOLDED
+Run 68 | 168.8 ↓ 114.4   RMSD 0.532   steps  59   ⚠️ MISFOLDED
+Run 69 | 135.0 ↓  89.8   RMSD 0.333   steps  54   🔄 NEAR-NATIVE
+Run 70 | 156.4 ↓  80.6   RMSD 0.406   steps  89   ⚠️ MISFOLDED
+Run 71 | 147.8 ↓ 100.6   RMSD 0.421   steps  35   ⚠️ MISFOLDED
+Run 72 | 200.8 ↓ 100.3   RMSD 0.577   steps  81   ❌ POOR
+Run 73 | 151.5 ↓  85.3   RMSD 0.442   steps  41   ⚠️ MISFOLDED
+Run 74 | 220.4 ↓ 121.3   RMSD 0.663   steps  43   ❌ POOR
+Run 75 | 141.3 ↓  79.3   RMSD 0.339   steps  33   🔄 NEAR-NATIVE
+Run 76 | 164.2 ↓  78.3   RMSD 0.365   steps  28   🔄 NEAR-NATIVE
+Run 77 | 201.7 ↓ 118.0   RMSD 0.597   steps  58   ❌ POOR
+Run 78 | 137.3 ↓  88.2   RMSD 0.406   steps  32   ⚠️ MISFOLDED
+Run 79 | 120.3 ↓  57.5   RMSD 0.308   steps  56   🔄 NEAR-NATIVE
+Run 80 | 159.6 ↓ 100.7   RMSD 0.496   steps  55   ⚠️ MISFOLDED
+Run 81 | 166.4 ↓  68.8   RMSD 0.463   steps  82   ⚠️ MISFOLDED
+Run 82 | 119.3 ↓  56.1   RMSD 0.313   steps  30   🔄 NEAR-NATIVE
+Run 83 | 172.8 ↓ 120.0   RMSD 0.478   steps  19   ⚠️ MISFOLDED
+Run 84 | 156.3 ↓ 102.2   RMSD 0.449   steps  22   ⚠️ MISFOLDED
+Run 85 | 165.2 ↓ 147.2   RMSD 0.566   steps  20   ❌ POOR
+Run 86 | 162.8 ↓ 113.1   RMSD 0.459   steps  86   ⚠️ MISFOLDED
+Run 87 | 153.1 ↓  75.2   RMSD 0.381   steps  42   🔄 NEAR-NATIVE
+Run 88 | 181.0 ↓  78.3   RMSD 0.551   steps 125   ❌ POOR
+Run 89 | 101.9 ↓  50.2   RMSD 0.289   steps  68   👍 GOOD
+Run 90 | 201.7 ↓ 138.3   RMSD 0.603   steps  21   ❌ POOR
+Run 91 | 226.7 ↓ 134.2   RMSD 0.750   steps  67   ❌ POOR
+Run 92 | 176.2 ↓  90.0   RMSD 0.445   steps  43   ⚠️ MISFOLDED
+Run 93 | 178.4 ↓  86.6   RMSD 0.505   steps 112   ⚠️ MISFOLDED
+Run 94 | 160.7 ↓  71.6   RMSD 0.408   steps  15   ⚠️ MISFOLDED
+Run 95 | 149.7 ↓  96.4   RMSD 0.486   steps  75   ⚠️ MISFOLDED
+Run 96 | 140.8 ↓ 100.8   RMSD 0.439   steps  32   ⚠️ MISFOLDED
+Run 97 | 212.9 ↓ 135.2   RMSD 0.636   steps  32   ❌ POOR
+Run 98 | 177.3 ↓  94.1   RMSD 0.496   steps  85   ⚠️ MISFOLDED
+Run 99 | 128.6 ↓  71.4   RMSD 0.311   steps  38   🔄 NEAR-NATIVE
+Run 100 | 116.3 ↓  70.5   RMSD 0.368   steps  53   🔄 NEAR-NATIVE
+
+────────────────────────────────────────────────────────────────────────────────
+SUMMARY STATISTICS
+Native energy:       314.7
+Avg initial E:       156.9 ± 29.2
+Avg final E:          89.9 ± 23.3
+Avg energy drop:      67.0 ± 20.7
+Avg final RMSD:      0.441 ± 0.110
+Avg steps:           63
+
+Outcome distribution:
+  • 🏆 Perfect      (RMSD ≤ 0.12) :   0.0%
+  • ✅ Successful   (≤ 0.20)     :   0.0%
+  • 👍 Good         (≤ 0.30)     :   6.0%
+  • 🔄 Near-native  (≤ 0.40)     :  33.0%
+  • ⚠️  Misfolded    (≤ 0.55)     :  43.0%
+  • ❌ Poor         (> 0.55)      :  18.0%
+
+r = 0.000001
+==========================================================================================
+   Gömböc – Protein Folding Analogy     
+==========================================================================================
+Native energy: 314.7
+
+════════════════════════════════════════════════════════════════════════════════
+  MULTIPLE FOLDING SIMULATIONS  
+════════════════════════════════════════════════════════════════════════════════
+Run  1 | 182.5 ↓ 164.7   RMSD 0.553   steps   7   ❌ POOR
+Run  2 | 140.4 ↓ 124.4   RMSD 0.374   steps  10   🔄 NEAR-NATIVE
+Run  3 | 210.3 ↓ 194.3   RMSD 0.617   steps  17   ❌ POOR
+Run  4 | 155.4 ↓ 109.2   RMSD 0.397   steps   9   🔄 NEAR-NATIVE
+Run  5 | 182.3 ↓ 164.5   RMSD 0.537   steps   9   ⚠️ MISFOLDED
+Run  6 | 146.2 ↓ 124.9   RMSD 0.422   steps  14   ⚠️ MISFOLDED
+Run  7 | 221.6 ↓ 195.8   RMSD 0.709   steps   8   ❌ POOR
+Run  8 | 147.1 ↓ 121.5   RMSD 0.442   steps  33   ⚠️ MISFOLDED
+Run  9 | 149.7 → 149.5   RMSD 0.477   steps  12   ⚠️ MISFOLDED
+Run 10 | 166.8 ↓ 123.6   RMSD 0.443   steps  12   ⚠️ MISFOLDED
+Run 11 | 142.7 ↓ 122.1   RMSD 0.416   steps  14   ⚠️ MISFOLDED
+Run 12 | 173.6 ↓ 141.8   RMSD 0.497   steps  18   ⚠️ MISFOLDED
+Run 13 | 159.6 ↓ 142.5   RMSD 0.477   steps  10   ⚠️ MISFOLDED
+Run 14 | 183.5 ↓ 163.6   RMSD 0.632   steps   7   ❌ POOR
+Run 15 | 139.7 ↓ 121.8   RMSD 0.429   steps   5   ⚠️ MISFOLDED
+Run 16 | 136.3 ↓ 115.7   RMSD 0.365   steps  11   🔄 NEAR-NATIVE
+Run 17 | 135.8 ↓ 100.1   RMSD 0.311   steps   4   🔄 NEAR-NATIVE
+Run 18 | 194.4 ↓ 165.5   RMSD 0.475   steps   9   ⚠️ MISFOLDED
+Run 19 | 146.0 → 144.4   RMSD 0.442   steps  18   ⚠️ MISFOLDED
+Run 20 | 162.2 ↓ 151.8   RMSD 0.429   steps  15   ⚠️ MISFOLDED
+Run 21 | 178.6 ↓ 152.7   RMSD 0.473   steps  12   ⚠️ MISFOLDED
+Run 22 | 158.5 ↓ 140.7   RMSD 0.498   steps   8   ⚠️ MISFOLDED
+Run 23 | 189.4 → 179.8   RMSD 0.546   steps   9   ⚠️ MISFOLDED
+Run 24 | 187.8 ↓ 176.0   RMSD 0.473   steps   7   ⚠️ MISFOLDED
+Run 25 | 161.0 ↓ 133.6   RMSD 0.406   steps   9   ⚠️ MISFOLDED
+Run 26 | 203.4 ↓ 175.3   RMSD 0.506   steps  18   ⚠️ MISFOLDED
+Run 27 | 190.6 ↓ 167.8   RMSD 0.427   steps  14   ⚠️ MISFOLDED
+Run 28 | 158.1 ↓ 147.2   RMSD 0.387   steps   5   🔄 NEAR-NATIVE
+Run 29 | 181.1 ↓ 163.8   RMSD 0.584   steps   8   ❌ POOR
+Run 30 | 182.2 ↓ 145.1   RMSD 0.355   steps  19   🔄 NEAR-NATIVE
+Run 31 |  96.0 →  93.9   RMSD 0.316   steps   7   🔄 NEAR-NATIVE
+Run 32 | 141.4 ↓ 128.4   RMSD 0.403   steps   7   ⚠️ MISFOLDED
+Run 33 | 165.2 → 156.8   RMSD 0.523   steps   7   ⚠️ MISFOLDED
+Run 34 | 170.9 → 161.6   RMSD 0.574   steps   7   ❌ POOR
+Run 35 | 181.5 ↓ 162.2   RMSD 0.586   steps   2   ❌ POOR
+Run 36 | 183.6 ↓ 153.3   RMSD 0.550   steps  13   ❌ POOR
+Run 37 | 230.3 ↓ 199.3   RMSD 0.684   steps   9   ❌ POOR
+Run 38 | 203.0 ↓ 172.6   RMSD 0.635   steps   9   ❌ POOR
+Run 39 | 155.7 ↓ 139.3   RMSD 0.498   steps   3   ⚠️ MISFOLDED
+Run 40 | 171.6 ↓ 155.6   RMSD 0.532   steps   9   ⚠️ MISFOLDED
+Run 41 | 163.0 ↓ 141.6   RMSD 0.461   steps  18   ⚠️ MISFOLDED
+Run 42 | 145.5 ↓ 111.4   RMSD 0.404   steps   8   ⚠️ MISFOLDED
+Run 43 | 155.6 ↓ 140.1   RMSD 0.337   steps  12   🔄 NEAR-NATIVE
+Run 44 | 198.0 ↓ 173.8   RMSD 0.515   steps  10   ⚠️ MISFOLDED
+Run 45 | 159.6 → 150.4   RMSD 0.504   steps  27   ⚠️ MISFOLDED
+Run 46 | 203.3 ↓ 162.0   RMSD 0.503   steps  11   ⚠️ MISFOLDED
+Run 47 | 117.8 → 112.5   RMSD 0.340   steps  14   🔄 NEAR-NATIVE
+Run 48 | 166.4 → 156.7   RMSD 0.546   steps   4   ⚠️ MISFOLDED
+Run 49 | 163.0 → 156.6   RMSD 0.559   steps   9   ❌ POOR
+Run 50 | 127.9 → 126.7   RMSD 0.312   steps  10   🔄 NEAR-NATIVE
+Run 51 | 151.9 ↓ 126.8   RMSD 0.368   steps  14   🔄 NEAR-NATIVE
+Run 52 | 179.7 → 175.7   RMSD 0.617   steps  14   ❌ POOR
+Run 53 | 179.7 ↓ 167.4   RMSD 0.612   steps  17   ❌ POOR
+Run 54 | 145.5 → 137.9   RMSD 0.453   steps   4   ⚠️ MISFOLDED
+Run 55 | 162.6 ↓ 151.7   RMSD 0.445   steps  12   ⚠️ MISFOLDED
+Run 56 | 159.2 → 150.4   RMSD 0.487   steps   8   ⚠️ MISFOLDED
+Run 57 | 127.7 → 124.0   RMSD 0.388   steps  11   🔄 NEAR-NATIVE
+Run 58 | 171.6 → 164.1   RMSD 0.572   steps  10   ❌ POOR
+Run 59 | 154.9 ↓ 123.4   RMSD 0.408   steps   8   ⚠️ MISFOLDED
+Run 60 | 122.8 → 120.0   RMSD 0.391   steps   5   🔄 NEAR-NATIVE
+Run 61 | 155.1 ↓ 104.3   RMSD 0.312   steps   6   🔄 NEAR-NATIVE
+Run 62 | 197.7 → 191.6   RMSD 0.633   steps  14   ❌ POOR
+Run 63 | 147.7 ↓ 130.4   RMSD 0.480   steps  11   ⚠️ MISFOLDED
+Run 64 | 128.5 ↓ 111.1   RMSD 0.341   steps   9   🔄 NEAR-NATIVE
+Run 65 | 138.1 ↓ 115.2   RMSD 0.442   steps   7   ⚠️ MISFOLDED
+Run 66 | 181.2 → 173.2   RMSD 0.621   steps   4   ❌ POOR
+Run 67 | 158.6 ↓ 126.8   RMSD 0.286   steps  15   👍 GOOD
+Run 68 | 172.7 ↓ 133.0   RMSD 0.496   steps   7   ⚠️ MISFOLDED
+Run 69 | 163.7 ↓ 148.7   RMSD 0.398   steps   8   🔄 NEAR-NATIVE
+Run 70 | 152.0 → 145.7   RMSD 0.469   steps   8   ⚠️ MISFOLDED
+Run 71 | 138.5 ↓ 123.3   RMSD 0.359   steps   6   🔄 NEAR-NATIVE
+Run 72 | 117.4 → 116.5   RMSD 0.314   steps   9   🔄 NEAR-NATIVE
+Run 73 | 163.9 → 163.9   RMSD 0.504   steps   3   ⚠️ MISFOLDED
+Run 74 | 180.3 ↓ 160.3   RMSD 0.464   steps   5   ⚠️ MISFOLDED
+Run 75 | 191.0 ↓ 152.6   RMSD 0.478   steps  18   ⚠️ MISFOLDED
+Run 76 | 169.0 ↓ 152.2   RMSD 0.401   steps   5   ⚠️ MISFOLDED
+Run 77 | 201.0 → 193.3   RMSD 0.559   steps   8   ❌ POOR
+Run 78 | 181.0 → 175.4   RMSD 0.527   steps  10   ⚠️ MISFOLDED
+Run 79 | 171.4 → 170.3   RMSD 0.505   steps   6   ⚠️ MISFOLDED
+Run 80 | 176.4 → 174.2   RMSD 0.557   steps   8   ❌ POOR
+Run 81 | 182.3 ↓ 160.4   RMSD 0.568   steps  16   ❌ POOR
+Run 82 | 203.1 ↓ 171.5   RMSD 0.555   steps  11   ❌ POOR
+Run 83 | 176.4 → 174.3   RMSD 0.524   steps  13   ⚠️ MISFOLDED
+Run 84 | 123.3 ↓ 109.8   RMSD 0.353   steps   9   🔄 NEAR-NATIVE
+Run 85 | 193.6 ↓ 175.3   RMSD 0.550   steps  11   ❌ POOR
+Run 86 | 124.9 → 116.9   RMSD 0.316   steps   7   🔄 NEAR-NATIVE
+Run 87 | 178.7 ↓ 154.1   RMSD 0.428   steps  10   ⚠️ MISFOLDED
+Run 88 | 134.6 → 133.1   RMSD 0.300   steps   8   🔄 NEAR-NATIVE
+Run 89 | 139.9 → 136.9   RMSD 0.346   steps   9   🔄 NEAR-NATIVE
+Run 90 | 178.8 ↓ 145.0   RMSD 0.469   steps  11   ⚠️ MISFOLDED
+Run 91 | 137.6 ↓ 117.0   RMSD 0.350   steps  10   🔄 NEAR-NATIVE
+Run 92 | 194.1 ↓ 177.8   RMSD 0.539   steps   7   ⚠️ MISFOLDED
+Run 93 | 145.8 → 141.4   RMSD 0.494   steps   8   ⚠️ MISFOLDED
+Run 94 | 138.9 → 131.4   RMSD 0.430   steps   7   ⚠️ MISFOLDED
+Run 95 | 138.3 ↓ 127.5   RMSD 0.398   steps   8   🔄 NEAR-NATIVE
+Run 96 | 153.9 ↓ 139.1   RMSD 0.485   steps  11   ⚠️ MISFOLDED
+Run 97 | 200.6 ↓ 182.2   RMSD 0.521   steps  11   ⚠️ MISFOLDED
+Run 98 | 136.9 ↓ 124.6   RMSD 0.362   steps  14   🔄 NEAR-NATIVE
+Run 99 | 208.8 ↓ 166.8   RMSD 0.598   steps  11   ❌ POOR
+Run 100 | 183.1 ↓ 167.4   RMSD 0.552   steps   5   ❌ POOR
+
+────────────────────────────────────────────────────────────────────────────────
+SUMMARY STATISTICS
+Native energy:       314.7
+Avg initial E:       164.8 ± 25.4
+Avg final E:         147.3 ± 23.9
+Avg energy drop:      17.5 ± 11.7
+Avg final RMSD:      0.469 ± 0.095
+Avg steps:           10
+
+Outcome distribution:
+  • 🏆 Perfect      (RMSD ≤ 0.12) :   0.0%
+  • ✅ Successful   (≤ 0.20)     :   0.0%
+  • 👍 Good         (≤ 0.30)     :   1.0%
+  • 🔄 Near-native  (≤ 0.40)     :  25.0%
+  • ⚠️  Misfolded    (≤ 0.55)     :  51.0%
+  • ❌ Poor         (> 0.55)      :  23.0%
+
+r = 0.00001
+==========================================================================================
+   Gömböc – Protein Folding Analogy  
+==========================================================================================
+Native energy: 314.7
+
+════════════════════════════════════════════════════════════════════════════════
+  MULTIPLE FOLDING SIMULATIONS 
+════════════════════════════════════════════════════════════════════════════════
+Run  1 | 135.5 → 135.2   RMSD 0.374   steps   7   🔄 NEAR-NATIVE
+Run  2 | 146.5 → 140.0   RMSD 0.400   steps   3   ⚠️ MISFOLDED
+Run  3 | 158.5 ↓ 131.5   RMSD 0.383   steps   8   🔄 NEAR-NATIVE
+Run  4 | 154.3 → 152.2   RMSD 0.431   steps  10   ⚠️ MISFOLDED
+Run  5 | 152.6 → 152.6   RMSD 0.449   steps   3   ⚠️ MISFOLDED
+Run  6 | 180.8 ↓ 166.8   RMSD 0.421   steps   6   ⚠️ MISFOLDED
+Run  7 | 147.9 ↓ 116.8   RMSD 0.319   steps   6   🔄 NEAR-NATIVE
+Run  8 | 191.4 → 184.3   RMSD 0.686   steps   9   ❌ POOR
+Run  9 | 143.6 → 143.0   RMSD 0.434   steps   3   ⚠️ MISFOLDED
+Run 10 | 195.4 ↓ 182.3   RMSD 0.625   steps  12   ❌ POOR
+Run 11 | 138.7 ↓ 128.3   RMSD 0.446   steps   4   ⚠️ MISFOLDED
+Run 12 | 187.1 ↓ 176.0   RMSD 0.512   steps   3   ⚠️ MISFOLDED
+Run 13 | 200.9 → 200.7   RMSD 0.591   steps   8   ❌ POOR
+Run 14 | 222.7 ↓ 187.6   RMSD 0.614   steps  10   ❌ POOR
+Run 15 | 144.9 ↓ 118.4   RMSD 0.540   steps   7   ⚠️ MISFOLDED
+Run 16 | 201.4 ↓ 175.1   RMSD 0.551   steps   6   ❌ POOR
+Run 17 | 176.7 ↓ 164.9   RMSD 0.525   steps   7   ⚠️ MISFOLDED
+Run 18 | 157.0 ↓ 135.9   RMSD 0.443   steps   7   ⚠️ MISFOLDED
+Run 19 | 168.7 → 164.0   RMSD 0.511   steps   5   ⚠️ MISFOLDED
+Run 20 | 177.7 ↓ 167.3   RMSD 0.629   steps   5   ❌ POOR
+Run 21 | 150.3 ↓ 137.1   RMSD 0.452   steps   9   ⚠️ MISFOLDED
+Run 22 | 128.9 → 119.5   RMSD 0.431   steps   6   ⚠️ MISFOLDED
+Run 23 | 101.4 →  94.5   RMSD 0.252   steps   7   👍 GOOD
+Run 24 | 173.5 ↓ 161.2   RMSD 0.600   steps   5   ❌ POOR
+Run 25 | 186.4 ↓ 151.6   RMSD 0.500   steps   7   ⚠️ MISFOLDED
+Run 26 | 149.5 → 147.6   RMSD 0.399   steps   7   🔄 NEAR-NATIVE
+Run 27 | 186.9 ↓ 167.0   RMSD 0.502   steps   1   ⚠️ MISFOLDED
+Run 28 | 128.0 → 124.0   RMSD 0.394   steps   7   🔄 NEAR-NATIVE
+Run 29 | 165.1 ↓ 131.8   RMSD 0.298   steps  11   👍 GOOD
+Run 30 | 155.1 ↓ 132.6   RMSD 0.404   steps   4   ⚠️ MISFOLDED
+Run 31 | 193.8 → 188.4   RMSD 0.537   steps   5   ⚠️ MISFOLDED
+Run 32 | 191.9 ↓ 178.3   RMSD 0.513   steps   6   ⚠️ MISFOLDED
+Run 33 | 192.7 ↓ 160.3   RMSD 0.557   steps   6   ❌ POOR
+Run 34 | 162.6 ↓ 139.8   RMSD 0.494   steps   3   ⚠️ MISFOLDED
+Run 35 | 155.7 ↓ 144.3   RMSD 0.457   steps   6   ⚠️ MISFOLDED
+Run 36 | 118.6 → 116.1   RMSD 0.240   steps   9   👍 GOOD
+Run 37 | 125.4 ↓ 110.9   RMSD 0.318   steps   5   🔄 NEAR-NATIVE
+Run 38 | 164.6 ↓ 119.1   RMSD 0.413   steps   8   ⚠️ MISFOLDED
+Run 39 | 166.2 ↓ 132.7   RMSD 0.487   steps   8   ⚠️ MISFOLDED
+Run 40 | 140.5 ↓ 125.5   RMSD 0.266   steps   3   👍 GOOD
+Run 41 | 123.3 ↓ 108.7   RMSD 0.340   steps   7   🔄 NEAR-NATIVE
+Run 42 | 130.1 ↓ 118.9   RMSD 0.366   steps  10   🔄 NEAR-NATIVE
+Run 43 | 149.9 → 149.9   RMSD 0.525   steps   6   ⚠️ MISFOLDED
+Run 44 | 171.4 → 162.1   RMSD 0.534   steps   9   ⚠️ MISFOLDED
+Run 45 | 184.8 ↓ 167.5   RMSD 0.596   steps   8   ❌ POOR
+Run 46 | 197.2 ↓ 177.4   RMSD 0.627   steps   7   ❌ POOR
+Run 47 | 137.1 → 137.1   RMSD 0.502   steps   4   ⚠️ MISFOLDED
+Run 48 | 199.7 → 199.7   RMSD 0.684   steps   2   ❌ POOR
+Run 49 | 152.0 ↓ 140.8   RMSD 0.406   steps   8   ⚠️ MISFOLDED
+Run 50 | 210.8 ↓ 196.1   RMSD 0.583   steps   4   ❌ POOR
+Run 51 | 178.5 ↓ 157.5   RMSD 0.554   steps   6   ❌ POOR
+Run 52 | 165.6 ↓ 135.3   RMSD 0.395   steps   6   🔄 NEAR-NATIVE
+Run 53 | 193.1 ↓ 155.9   RMSD 0.528   steps  15   ⚠️ MISFOLDED
+Run 54 | 191.0 → 191.0   RMSD 0.581   steps   3   ❌ POOR
+Run 55 | 100.7 → 100.7   RMSD 0.250   steps   3   👍 GOOD
+Run 56 |  97.2 →  96.0   RMSD 0.232   steps   8   👍 GOOD
+Run 57 | 171.7 ↓ 144.3   RMSD 0.464   steps   5   ⚠️ MISFOLDED
+Run 58 | 186.3 ↓ 172.3   RMSD 0.504   steps  11   ⚠️ MISFOLDED
+Run 59 | 146.9 ↓ 129.1   RMSD 0.428   steps   3   ⚠️ MISFOLDED
+Run 60 | 145.3 → 145.1   RMSD 0.569   steps   2   ❌ POOR
+Run 61 | 158.0 → 149.8   RMSD 0.431   steps   5   ⚠️ MISFOLDED
+Run 62 | 186.8 → 186.7   RMSD 0.500   steps   1   ⚠️ MISFOLDED
+Run 63 | 165.2 → 162.4   RMSD 0.487   steps  10   ⚠️ MISFOLDED
+Run 64 | 171.3 → 163.1   RMSD 0.480   steps   9   ⚠️ MISFOLDED
+Run 65 | 106.7 ↓  93.7   RMSD 0.290   steps   9   👍 GOOD
+Run 66 | 161.9 ↓ 140.5   RMSD 0.551   steps   5   ❌ POOR
+Run 67 | 203.9 ↓ 191.5   RMSD 0.541   steps   5   ⚠️ MISFOLDED
+Run 68 | 206.3 ↓ 166.9   RMSD 0.525   steps  10   ⚠️ MISFOLDED
+Run 69 | 160.7 → 150.7   RMSD 0.427   steps   3   ⚠️ MISFOLDED
+Run 70 | 207.1 ↓ 174.7   RMSD 0.603   steps  11   ❌ POOR
+Run 71 | 171.7 ↓ 160.5   RMSD 0.587   steps   4   ❌ POOR
+Run 72 | 160.6 ↓ 139.5   RMSD 0.438   steps   2   ⚠️ MISFOLDED
+Run 73 | 119.8 → 119.3   RMSD 0.270   steps   3   👍 GOOD
+Run 74 | 215.5 ↓ 177.6   RMSD 0.643   steps   6   ❌ POOR
+Run 75 | 173.9 → 173.9   RMSD 0.703   steps   3   ❌ POOR
+Run 76 | 137.3 ↓ 122.6   RMSD 0.361   steps   3   🔄 NEAR-NATIVE
+Run 77 | 172.9 ↓ 159.5   RMSD 0.493   steps   8   ⚠️ MISFOLDED
+Run 78 | 139.3 → 137.9   RMSD 0.415   steps   5   ⚠️ MISFOLDED
+Run 79 | 116.6 ↓ 106.5   RMSD 0.286   steps   5   👍 GOOD
+Run 80 | 207.4 ↓ 195.9   RMSD 0.579   steps   4   ❌ POOR
+Run 81 | 137.0 → 131.0   RMSD 0.393   steps   6   🔄 NEAR-NATIVE
+Run 82 | 167.5 ↓ 140.9   RMSD 0.475   steps  11   ⚠️ MISFOLDED
+Run 83 | 182.1 ↓ 167.7   RMSD 0.550   steps   5   ❌ POOR
+Run 84 | 181.4 → 173.1   RMSD 0.491   steps   8   ⚠️ MISFOLDED
+Run 85 | 188.3 ↓ 178.0   RMSD 0.608   steps   3   ❌ POOR
+Run 86 | 202.5 ↓ 169.0   RMSD 0.543   steps   8   ⚠️ MISFOLDED
+Run 87 | 177.7 ↓ 162.7   RMSD 0.632   steps   9   ❌ POOR
+Run 88 | 121.0 → 113.0   RMSD 0.367   steps   4   🔄 NEAR-NATIVE
+Run 89 | 154.7 ↓ 143.5   RMSD 0.586   steps   8   ❌ POOR
+Run 90 | 174.5 → 164.7   RMSD 0.477   steps   2   ⚠️ MISFOLDED
+Run 91 | 147.6 → 143.9   RMSD 0.375   steps  10   🔄 NEAR-NATIVE
+Run 92 | 186.5 ↓ 158.1   RMSD 0.498   steps   4   ⚠️ MISFOLDED
+Run 93 | 156.1 ↓ 129.4   RMSD 0.424   steps   9   ⚠️ MISFOLDED
+Run 94 | 165.4 ↓ 121.3   RMSD 0.422   steps   8   ⚠️ MISFOLDED
+Run 95 | 138.3 ↓ 123.9   RMSD 0.335   steps   3   🔄 NEAR-NATIVE
+Run 96 | 173.6 → 164.2   RMSD 0.520   steps  14   ⚠️ MISFOLDED
+Run 97 | 169.5 ↓ 152.0   RMSD 0.308   steps   4   🔄 NEAR-NATIVE
+Run 98 | 138.6 → 138.6   RMSD 0.376   steps   1   🔄 NEAR-NATIVE
+Run 99 | 137.1 → 132.0   RMSD 0.469   steps   6   ⚠️ MISFOLDED
+Run 100 | 156.5 → 147.9   RMSD 0.449   steps   7   ⚠️ MISFOLDED
+
+────────────────────────────────────────────────────────────────────────────────
+SUMMARY STATISTICS
+Native energy:       314.7
+Avg initial E:       163.5 ± 27.5
+Avg final E:         149.2 ± 25.3
+Avg energy drop:      14.3 ± 11.5
+Avg final RMSD:      0.470 ± 0.108
+Avg steps:           6
+
+Outcome distribution:
+  • 🏆 Perfect      (RMSD ≤ 0.12) :   0.0%
+  • ✅ Successful   (≤ 0.20)     :   0.0%
+  • 👍 Good         (≤ 0.30)     :   9.0%
+  • 🔄 Near-native  (≤ 0.40)     :  16.0%
+  • ⚠️  Misfolded    (≤ 0.55)     :  50.0%
+  • ❌ Poor         (> 0.55)      :  25.0%
+
+r = 0.0001
+==========================================================================================
+   Gömböc – Protein Folding Analogy     
+==========================================================================================
+Native energy: 314.7
+
+════════════════════════════════════════════════════════════════════════════════
+  MULTIPLE FOLDING SIMULATIONS  
+════════════════════════════════════════════════════════════════════════════════
+Run  1 | 133.5 → 133.5   RMSD 0.254   steps   5   👍 GOOD
+Run  2 | 137.7 → 137.7   RMSD 0.281   steps   4   👍 GOOD
+Run  3 | 157.0 ↓ 140.4   RMSD 0.344   steps   3   🔄 NEAR-NATIVE
+Run  4 | 193.7 → 193.7   RMSD 0.524   steps   3   ⚠️ MISFOLDED
+Run  5 | 212.2 → 211.5   RMSD 0.595   steps   6   ❌ POOR
+Run  6 | 142.0 ↓ 119.9   RMSD 0.305   steps   6   🔄 NEAR-NATIVE
+Run  7 | 180.5 → 180.5   RMSD 0.444   steps   3   ⚠️ MISFOLDED
+Run  8 | 138.0 → 131.7   RMSD 0.285   steps   8   👍 GOOD
+Run  9 | 116.9 → 116.9   RMSD 0.322   steps   2   🔄 NEAR-NATIVE
+Run 10 | 139.5 → 139.5   RMSD 0.340   steps   3   🔄 NEAR-NATIVE
+Run 11 | 114.4 → 112.2   RMSD 0.278   steps   3   👍 GOOD
+Run 12 | 191.7 → 189.7   RMSD 0.564   steps   7   ❌ POOR
+Run 13 | 220.4 → 220.4   RMSD 0.556   steps   5   ❌ POOR
+Run 14 | 151.5 → 151.5   RMSD 0.513   steps   4   ⚠️ MISFOLDED
+Run 15 | 186.3 → 186.3   RMSD 0.475   steps   2   ⚠️ MISFOLDED
+Run 16 | 174.4 → 174.4   RMSD 0.430   steps   6   ⚠️ MISFOLDED
+Run 17 | 156.1 → 156.1   RMSD 0.295   steps   7   👍 GOOD
+Run 18 | 142.9 → 142.2   RMSD 0.454   steps   6   ⚠️ MISFOLDED
+Run 19 | 197.0 → 197.0   RMSD 0.551   steps   0   ❌ POOR
+Run 20 | 150.1 → 149.5   RMSD 0.378   steps   4   🔄 NEAR-NATIVE
+Run 21 | 118.8 → 118.8   RMSD 0.313   steps   6   🔄 NEAR-NATIVE
+Run 22 | 168.1 → 168.1   RMSD 0.476   steps   2   ⚠️ MISFOLDED
+Run 23 | 143.9 → 143.9   RMSD 0.408   steps   1   ⚠️ MISFOLDED
+Run 24 | 196.7 → 196.7   RMSD 0.634   steps   4   ❌ POOR
+Run 25 | 194.0 → 187.5   RMSD 0.659   steps  11   ❌ POOR
+Run 26 | 153.7 → 153.7   RMSD 0.510   steps   3   ⚠️ MISFOLDED
+Run 27 | 170.2 ↓ 153.7   RMSD 0.386   steps   6   🔄 NEAR-NATIVE
+Run 28 | 157.5 → 157.5   RMSD 0.444   steps   2   ⚠️ MISFOLDED
+Run 29 | 121.8 → 121.8   RMSD 0.297   steps   3   👍 GOOD
+Run 30 | 158.8 → 158.8   RMSD 0.483   steps   6   ⚠️ MISFOLDED
+Run 31 | 177.2 ↓ 162.5   RMSD 0.545   steps   5   ⚠️ MISFOLDED
+Run 32 | 181.0 → 181.0   RMSD 0.489   steps   4   ⚠️ MISFOLDED
+Run 33 | 185.6 → 185.7   RMSD 0.527   steps   7   ⚠️ MISFOLDED
+Run 34 | 148.2 → 146.0   RMSD 0.361   steps   7   🔄 NEAR-NATIVE
+Run 35 | 160.7 → 160.7   RMSD 0.451   steps   7   ⚠️ MISFOLDED
+Run 36 | 187.0 → 187.0   RMSD 0.580   steps   5   ❌ POOR
+Run 37 | 195.2 → 195.2   RMSD 0.610   steps   2   ❌ POOR
+Run 38 | 179.2 → 179.2   RMSD 0.579   steps   3   ❌ POOR
+Run 39 | 204.4 → 204.4   RMSD 0.481   steps   1   ⚠️ MISFOLDED
+Run 40 | 178.1 → 178.1   RMSD 0.420   steps   2   ⚠️ MISFOLDED
+Run 41 | 155.2 → 155.2   RMSD 0.422   steps   4   ⚠️ MISFOLDED
+Run 42 | 158.4 → 158.4   RMSD 0.460   steps   7   ⚠️ MISFOLDED
+Run 43 | 152.6 → 152.6   RMSD 0.272   steps   2   👍 GOOD
+Run 44 | 246.1 → 245.7   RMSD 0.641   steps   4   ❌ POOR
+Run 45 | 132.1 → 132.1   RMSD 0.308   steps   1   🔄 NEAR-NATIVE
+Run 46 | 200.0 → 200.0   RMSD 0.595   steps   2   ❌ POOR
+Run 47 | 112.9 → 112.9   RMSD 0.299   steps   3   👍 GOOD
+Run 48 | 189.4 → 189.4   RMSD 0.566   steps   6   ❌ POOR
+Run 49 | 144.9 → 144.9   RMSD 0.275   steps   2   👍 GOOD
+Run 50 | 129.1 ↓ 109.4   RMSD 0.342   steps   6   🔄 NEAR-NATIVE
+Run 51 | 165.0 → 164.9   RMSD 0.564   steps   5   ❌ POOR
+Run 52 | 179.6 → 179.6   RMSD 0.475   steps   2   ⚠️ MISFOLDED
+Run 53 | 189.3 → 189.3   RMSD 0.495   steps   2   ⚠️ MISFOLDED
+Run 54 | 188.3 → 188.3   RMSD 0.510   steps   5   ⚠️ MISFOLDED
+Run 55 | 144.2 → 144.2   RMSD 0.377   steps   6   🔄 NEAR-NATIVE
+Run 56 | 205.0 → 205.0   RMSD 0.725   steps   6   ❌ POOR
+Run 57 | 183.7 → 183.7   RMSD 0.494   steps   1   ⚠️ MISFOLDED
+Run 58 | 170.6 → 170.6   RMSD 0.437   steps   1   ⚠️ MISFOLDED
+Run 59 | 114.1 → 112.4   RMSD 0.243   steps  10   👍 GOOD
+Run 60 | 177.0 → 177.0   RMSD 0.504   steps   3   ⚠️ MISFOLDED
+Run 61 | 134.6 → 134.6   RMSD 0.466   steps   4   ⚠️ MISFOLDED
+Run 62 | 208.4 → 206.1   RMSD 0.503   steps   4   ⚠️ MISFOLDED
+Run 63 | 142.7 → 141.9   RMSD 0.268   steps   4   👍 GOOD
+Run 64 | 132.8 → 132.8   RMSD 0.253   steps   1   👍 GOOD
+Run 65 | 187.2 → 187.2   RMSD 0.445   steps   5   ⚠️ MISFOLDED
+Run 66 | 162.2 → 161.6   RMSD 0.478   steps   5   ⚠️ MISFOLDED
+Run 67 | 133.2 → 131.9   RMSD 0.311   steps   5   🔄 NEAR-NATIVE
+Run 68 | 218.5 → 218.5   RMSD 0.576   steps   4   ❌ POOR
+Run 69 | 111.3 → 110.7   RMSD 0.233   steps   4   👍 GOOD
+Run 70 | 111.7 → 111.7   RMSD 0.280   steps   1   👍 GOOD
+Run 71 | 174.8 → 174.8   RMSD 0.406   steps   2   ⚠️ MISFOLDED
+Run 72 | 188.6 → 188.6   RMSD 0.495   steps   6   ⚠️ MISFOLDED
+Run 73 | 139.6 → 139.6   RMSD 0.338   steps   4   🔄 NEAR-NATIVE
+Run 74 | 147.8 → 147.8   RMSD 0.449   steps   5   ⚠️ MISFOLDED
+Run 75 | 186.0 → 186.0   RMSD 0.572   steps   0   ❌ POOR
+Run 76 | 176.7 → 176.7   RMSD 0.422   steps   6   ⚠️ MISFOLDED
+Run 77 | 156.8 → 156.8   RMSD 0.470   steps   3   ⚠️ MISFOLDED
+Run 78 | 130.7 → 130.7   RMSD 0.279   steps   4   👍 GOOD
+Run 79 | 178.1 → 178.1   RMSD 0.597   steps   2   ❌ POOR
+Run 80 | 187.0 → 187.0   RMSD 0.560   steps   3   ❌ POOR
+Run 81 | 175.1 → 170.6   RMSD 0.514   steps   2   ⚠️ MISFOLDED
+Run 82 | 173.7 → 173.7   RMSD 0.551   steps   8   ❌ POOR
+Run 83 | 122.0 → 122.0   RMSD 0.272   steps   2   👍 GOOD
+Run 84 | 122.7 → 122.7   RMSD 0.317   steps   2   🔄 NEAR-NATIVE
+Run 85 | 212.7 → 212.7   RMSD 0.571   steps   3   ❌ POOR
+Run 86 | 179.3 ↓ 147.9   RMSD 0.472   steps   6   ⚠️ MISFOLDED
+Run 87 | 168.5 ↓ 149.5   RMSD 0.454   steps   5   ⚠️ MISFOLDED
+Run 88 | 126.1 → 126.1   RMSD 0.373   steps   5   🔄 NEAR-NATIVE
+Run 89 | 171.7 → 171.1   RMSD 0.480   steps   6   ⚠️ MISFOLDED
+Run 90 | 175.5 → 175.5   RMSD 0.477   steps   1   ⚠️ MISFOLDED
+Run 91 | 190.1 ↓ 168.3   RMSD 0.473   steps   8   ⚠️ MISFOLDED
+Run 92 | 161.9 → 161.9   RMSD 0.445   steps   0   ⚠️ MISFOLDED
+Run 93 | 153.6 → 153.6   RMSD 0.405   steps   5   ⚠️ MISFOLDED
+Run 94 | 185.5 → 185.5   RMSD 0.602   steps   2   ❌ POOR
+Run 95 | 161.5 → 152.0   RMSD 0.481   steps   2   ⚠️ MISFOLDED
+Run 96 | 204.0 → 204.0   RMSD 0.582   steps   2   ❌ POOR
+Run 97 | 180.1 → 179.9   RMSD 0.578   steps   3   ❌ POOR
+Run 98 | 134.0 → 134.0   RMSD 0.275   steps   2   👍 GOOD
+Run 99 | 153.4 → 152.7   RMSD 0.436   steps   1   ⚠️ MISFOLDED
+Run 100 | 115.3 ↓  97.7   RMSD 0.295   steps   5   👍 GOOD
+
+────────────────────────────────────────────────────────────────────────────────
+SUMMARY STATISTICS
+Native energy:       314.7
+Avg initial E:       164.3 ± 28.8
+Avg final E:         162.0 ± 29.7
+Avg energy drop:       2.2 ± 5.9
+Avg final RMSD:      0.443 ± 0.115
+Avg steps:           4
+
+Outcome distribution:
+  • 🏆 Perfect      (RMSD ≤ 0.12) :   0.0%
+  • ✅ Successful   (≤ 0.20)     :   0.0%
+  • 👍 Good         (≤ 0.30)     :  18.0%
+  • 🔄 Near-native  (≤ 0.40)     :  15.0%
+  • ⚠️  Misfolded    (≤ 0.55)     :  44.0%
+  • ❌ Poor         (> 0.55)      :  23.0%
+
+r = 0.001
+==========================================================================================
+   Gömböc – Protein Folding Analogy    
+==========================================================================================
+Native energy: 314.7
+
+════════════════════════════════════════════════════════════════════════════════
+  MULTIPLE FOLDING SIMULATIONS  
+════════════════════════════════════════════════════════════════════════════════
+Run  1 | 189.0 → 189.0   RMSD 0.528   steps   9   ⚠️ MISFOLDED
+Run  2 | 194.2 → 194.2   RMSD 0.437   steps   0   ⚠️ MISFOLDED
+Run  3 | 111.7 → 111.7   RMSD 0.311   steps   2   🔄 NEAR-NATIVE
+Run  4 | 208.7 → 208.7   RMSD 0.561   steps   2   ❌ POOR
+Run  5 | 174.1 → 174.2   RMSD 0.521   steps   7   ⚠️ MISFOLDED
+Run  6 | 129.6 → 129.6   RMSD 0.320   steps   4   🔄 NEAR-NATIVE
+Run  7 | 176.1 → 176.1   RMSD 0.460   steps   8   ⚠️ MISFOLDED
+Run  8 | 170.1 → 170.1   RMSD 0.460   steps   1   ⚠️ MISFOLDED
+Run  9 | 167.5 → 167.5   RMSD 0.425   steps   3   ⚠️ MISFOLDED
+Run 10 | 171.1 → 171.1   RMSD 0.378   steps   6   🔄 NEAR-NATIVE
+Run 11 | 176.3 → 176.3   RMSD 0.564   steps   0   ❌ POOR
+Run 12 | 188.9 → 188.9   RMSD 0.418   steps   2   ⚠️ MISFOLDED
+Run 13 | 178.2 → 178.2   RMSD 0.533   steps   1   ⚠️ MISFOLDED
+Run 14 | 198.2 → 197.7   RMSD 0.562   steps   3   ❌ POOR
+Run 15 | 115.1 → 115.1   RMSD 0.243   steps   3   👍 GOOD
+Run 16 | 172.8 → 172.8   RMSD 0.482   steps   6   ⚠️ MISFOLDED
+Run 17 | 180.7 → 180.7   RMSD 0.529   steps   5   ⚠️ MISFOLDED
+Run 18 | 146.9 → 146.9   RMSD 0.342   steps   0   🔄 NEAR-NATIVE
+Run 19 | 156.7 → 156.7   RMSD 0.449   steps   3   ⚠️ MISFOLDED
+Run 20 | 155.7 → 155.7   RMSD 0.422   steps   4   ⚠️ MISFOLDED
+Run 21 | 149.0 → 149.0   RMSD 0.432   steps   3   ⚠️ MISFOLDED
+Run 22 | 150.6 → 150.6   RMSD 0.308   steps   6   🔄 NEAR-NATIVE
+Run 23 | 117.7 → 117.7   RMSD 0.297   steps   6   👍 GOOD
+Run 24 | 214.2 → 214.2   RMSD 0.517   steps   6   ⚠️ MISFOLDED
+Run 25 | 180.8 → 180.8   RMSD 0.488   steps   4   ⚠️ MISFOLDED
+Run 26 | 177.4 → 177.4   RMSD 0.500   steps   4   ⚠️ MISFOLDED
+Run 27 | 141.3 → 141.3   RMSD 0.432   steps   2   ⚠️ MISFOLDED
+Run 28 | 178.2 → 178.2   RMSD 0.475   steps   2   ⚠️ MISFOLDED
+Run 29 | 132.8 → 132.8   RMSD 0.268   steps   4   👍 GOOD
+Run 30 | 152.5 → 152.5   RMSD 0.322   steps   3   🔄 NEAR-NATIVE
+Run 31 | 171.6 → 171.6   RMSD 0.596   steps   2   ❌ POOR
+Run 32 | 142.2 → 142.2   RMSD 0.340   steps   3   🔄 NEAR-NATIVE
+Run 33 | 184.2 → 184.2   RMSD 0.525   steps   1   ⚠️ MISFOLDED
+Run 34 | 167.9 → 167.9   RMSD 0.401   steps   4   ⚠️ MISFOLDED
+Run 35 | 148.8 → 148.8   RMSD 0.478   steps   4   ⚠️ MISFOLDED
+Run 36 | 187.3 → 187.3   RMSD 0.511   steps   3   ⚠️ MISFOLDED
+Run 37 | 126.2 → 126.2   RMSD 0.269   steps   1   👍 GOOD
+Run 38 | 125.4 → 125.4   RMSD 0.239   steps   4   👍 GOOD
+Run 39 | 153.2 → 153.2   RMSD 0.413   steps   3   ⚠️ MISFOLDED
+Run 40 | 158.3 → 158.3   RMSD 0.512   steps   4   ⚠️ MISFOLDED
+Run 41 | 199.7 → 199.7   RMSD 0.597   steps   4   ❌ POOR
+Run 42 | 175.5 → 175.6   RMSD 0.573   steps   1   ❌ POOR
+Run 43 | 205.4 → 205.4   RMSD 0.567   steps   8   ❌ POOR
+Run 44 | 154.0 → 154.0   RMSD 0.385   steps   6   🔄 NEAR-NATIVE
+Run 45 | 153.6 → 153.6   RMSD 0.416   steps   1   ⚠️ MISFOLDED
+Run 46 | 121.1 → 121.1   RMSD 0.293   steps   7   👍 GOOD
+Run 47 | 153.4 → 153.4   RMSD 0.254   steps   6   👍 GOOD
+Run 48 | 207.6 → 207.6   RMSD 0.592   steps   5   ❌ POOR
+Run 49 | 198.8 → 198.8   RMSD 0.482   steps   2   ⚠️ MISFOLDED
+Run 50 | 123.5 → 123.5   RMSD 0.292   steps   4   👍 GOOD
+Run 51 | 164.4 → 164.4   RMSD 0.540   steps   4   ⚠️ MISFOLDED
+Run 52 | 134.0 → 134.0   RMSD 0.367   steps   2   🔄 NEAR-NATIVE
+Run 53 | 193.9 → 193.9   RMSD 0.543   steps   0   ⚠️ MISFOLDED
+Run 54 | 118.4 → 118.4   RMSD 0.233   steps   2   👍 GOOD
+Run 55 | 176.6 → 176.6   RMSD 0.477   steps   2   ⚠️ MISFOLDED
+Run 56 | 237.1 → 237.1   RMSD 0.520   steps   2   ⚠️ MISFOLDED
+Run 57 | 123.8 → 123.8   RMSD 0.254   steps   3   👍 GOOD
+Run 58 | 139.6 → 139.6   RMSD 0.420   steps   1   ⚠️ MISFOLDED
+Run 59 | 201.1 → 201.1   RMSD 0.500   steps   1   ⚠️ MISFOLDED
+Run 60 | 132.4 → 132.3   RMSD 0.288   steps   6   👍 GOOD
+Run 61 | 110.2 → 110.2   RMSD 0.288   steps   2   👍 GOOD
+Run 62 | 146.5 → 146.5   RMSD 0.443   steps   4   ⚠️ MISFOLDED
+Run 63 | 143.8 → 143.3   RMSD 0.350   steps   4   🔄 NEAR-NATIVE
+Run 64 | 165.1 → 165.1   RMSD 0.519   steps   3   ⚠️ MISFOLDED
+Run 65 | 181.2 → 181.3   RMSD 0.479   steps   5   ⚠️ MISFOLDED
+Run 66 | 187.3 → 187.3   RMSD 0.689   steps   5   ❌ POOR
+Run 67 | 185.6 → 185.6   RMSD 0.572   steps   4   ❌ POOR
+Run 68 | 163.8 → 163.8   RMSD 0.404   steps   2   ⚠️ MISFOLDED
+Run 69 | 193.0 → 193.0   RMSD 0.544   steps   3   ⚠️ MISFOLDED
+Run 70 | 118.0 → 118.0   RMSD 0.295   steps   3   👍 GOOD
+Run 71 | 170.8 → 170.8   RMSD 0.613   steps   4   ❌ POOR
+Run 72 | 140.8 → 140.8   RMSD 0.369   steps   1   🔄 NEAR-NATIVE
+Run 73 | 122.6 → 122.6   RMSD 0.253   steps   3   👍 GOOD
+Run 74 | 134.2 → 134.2   RMSD 0.266   steps   4   👍 GOOD
+Run 75 | 149.0 → 149.0   RMSD 0.346   steps   2   🔄 NEAR-NATIVE
+Run 76 | 116.1 → 116.1   RMSD 0.275   steps   1   👍 GOOD
+Run 77 | 170.7 → 170.7   RMSD 0.533   steps   2   ⚠️ MISFOLDED
+Run 78 | 163.0 → 163.0   RMSD 0.425   steps   4   ⚠️ MISFOLDED
+Run 79 | 214.3 → 214.3   RMSD 0.691   steps   1   ❌ POOR
+Run 80 | 189.0 → 189.0   RMSD 0.496   steps   2   ⚠️ MISFOLDED
+Run 81 | 209.2 → 209.2   RMSD 0.564   steps   5   ❌ POOR
+Run 82 | 147.7 → 147.7   RMSD 0.490   steps   1   ⚠️ MISFOLDED
+Run 83 | 158.7 → 158.7   RMSD 0.461   steps   4   ⚠️ MISFOLDED
+Run 84 | 167.4 → 167.4   RMSD 0.491   steps   5   ⚠️ MISFOLDED
+Run 85 | 162.9 → 162.9   RMSD 0.382   steps   5   🔄 NEAR-NATIVE
+Run 86 | 193.9 → 193.9   RMSD 0.563   steps   4   ❌ POOR
+Run 87 | 124.1 → 124.1   RMSD 0.310   steps   6   🔄 NEAR-NATIVE
+Run 88 | 141.2 → 141.2   RMSD 0.305   steps   3   🔄 NEAR-NATIVE
+Run 89 | 184.3 → 184.3   RMSD 0.460   steps   3   ⚠️ MISFOLDED
+Run 90 | 172.6 → 172.6   RMSD 0.444   steps   4   ⚠️ MISFOLDED
+Run 91 | 166.1 → 166.1   RMSD 0.517   steps   3   ⚠️ MISFOLDED
+Run 92 | 189.2 → 189.2   RMSD 0.539   steps   8   ⚠️ MISFOLDED
+Run 93 | 185.4 → 185.4   RMSD 0.495   steps   4   ⚠️ MISFOLDED
+Run 94 | 145.7 → 145.8   RMSD 0.327   steps   6   🔄 NEAR-NATIVE
+Run 95 | 173.7 → 173.8   RMSD 0.511   steps   5   ⚠️ MISFOLDED
+Run 96 | 198.6 → 198.6   RMSD 0.549   steps   1   ⚠️ MISFOLDED
+Run 97 | 155.2 → 155.1   RMSD 0.388   steps   5   🔄 NEAR-NATIVE
+Run 98 | 149.9 → 149.9   RMSD 0.436   steps   2   ⚠️ MISFOLDED
+Run 99 | 167.6 → 167.6   RMSD 0.500   steps   1   ⚠️ MISFOLDED
+Run 100 | 150.0 → 150.0   RMSD 0.310   steps   6   🔄 NEAR-NATIVE
+
+────────────────────────────────────────────────────────────────────────────────
+SUMMARY STATISTICS
+Native energy:       314.7
+Avg initial E:       163.4 ± 27.4
+Avg final E:         163.4 ± 27.4
+Avg energy drop:       0.0 ± 0.1
+Avg final RMSD:      0.438 ± 0.109
+Avg steps:           3
+
+Outcome distribution:
+  • 🏆 Perfect      (RMSD ≤ 0.12) :   0.0%
+  • ✅ Successful   (≤ 0.20)     :   0.0%
+  • 👍 Good         (≤ 0.30)     :  16.0%
+  • 🔄 Near-native  (≤ 0.40)     :  18.0%
+  • ⚠️  Misfolded    (≤ 0.55)     :  52.0%
+  • ❌ Poor         (> 0.55)      :  14.0%
