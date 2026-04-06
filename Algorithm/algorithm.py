@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 
 class GombocProteinModel:
-    def __init__(self, n_points=48, ruggedness=0.0001):
+    def __init__(self, n_points=48, ruggedness=0.00):
         self.n_points = n_points
         # Scale ruggedness appropriately - now 0.01 means 1% of energy scale
         self.ruggedness = ruggedness * 100.0  # Scale up because energy terms are ~100-300
@@ -521,7 +521,7 @@ def main():
     print("=" * 90)
 
     # Create model - try different ruggedness values:
-    model = GombocProteinModel(n_points=48, ruggedness=0.0001)
+    model = GombocProteinModel(n_points=48, ruggedness=0.00)
     print(f"Native energy: {model.native_energy:.1f}\n")
 
     # Run simulations
