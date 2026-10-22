@@ -9,7 +9,7 @@ This repository contains the computational framework, data, and analysis scripts
 
 ## Overview
 
-The protein folding problem remains a fundamental challenge in biophysics. While energy landscape theory resolves Levinthal's paradox through funnel-shaped landscapes, the quantitative effects of landscape ruggedness are not fully understood. This project introduces a computational model that uses a tunable ruggedness parameter to simulate folding across seven orders of magnitude of landscape ruggedness.
+The protein folding problem remains a fundamental challenge in biophysics. While energy landscape theory resolves Levinthal's paradox through funnel-shaped landscapes, the quantitative effects of landscape ruggedness are not fully understood. This project introduces a computational model that uses a tunable ruggedness parameter to simulate folding across multiple orders of magnitude of landscape ruggedness.
 
 ### Key Features
 
