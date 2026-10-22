@@ -5,3 +5,19 @@ The production run used mpiexec -n 24 AbinitioRelax.mpi.linuxgccrelease @flags, 
 The default Rosetta scoring function for release 2020.03 was used without modification: score3/score4 in the centroid ab initio stages and ref2015 in the all-atom relax stage. 
 The 2,500 decoys were generated across 24 MPI ranks, the top 1.0% (n = 25) were extracted with extract_pdbs.static.linuxgccrelease -in:file:silent fold_silent.out -out:pdb -in:file:tags <tag_list>, and all decoys were clustered with the 
 Rosetta cluster application at a 3.0 Å RMSD radius. 
+
+flags
+-in:file:native ./1elw.pdb
+-in:file:fasta ./1elw.fasta
+-in:file:frag3 ./aat000_03_05.200_v1_3
+-in:file:frag9 ./aat000_09_05.200_v1_3
+-in:file:psipred_ss2 ./t000_.psipred_ss2
+-nstruct 2500
+-abinitio:relax
+-use_filters true
+-abinitio::increase_cycles 10
+-abinitio::rg_reweight 0.5
+-abinitio::rsd_wt_helix 0.5
+-abinitio::rsd_wt_loop 0.5
+-relax::fast
+-out:file:silent ./fold_silent.out
