@@ -17,7 +17,7 @@ The protein folding problem remains a fundamental challenge in biophysics. While
 - **Tunable Ruggedness Parameter**: Systematic exploration from perfectly smooth funnels (r = 0) to highly frustrated landscapes (r = 10⁻³)
 - **Hybrid Optimization Strategy**: Two-stage approach combining Conjugate Gradient and BFGS algorithms
 - **Benchmarking**: Comparison against Rosetta *ab initio* simulations and AlphaFold3 predictions for the TPR1 domain
-- **Composite energy function**: Seven additive terms balancing native attraction, geometric constraints, and frustration
+- **Composite energy function**: Seven additive terms combining native attraction, geometric constraints, and tunable frustration
 
 ## Installation
 
