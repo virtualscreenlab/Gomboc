@@ -4,14 +4,8 @@ from matplotlib.patches import Polygon
 from scipy.optimize import minimize
 import matplotlib.animation as animation
 import warnings
-import random
-
-SEED = 42
-np.random.seed(SEED)
-random.seed(SEED)
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
-
 
 class GombocProteinModel:
     def __init__(self, n_points=48, ruggedness=0.00):
