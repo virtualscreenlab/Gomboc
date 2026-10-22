@@ -5,7 +5,7 @@
 
 > **When Does a Funnel Become a Trap? A Gömböc-Inspired Model of Protein Folding Landscapes**
 
-This repository contains the computational framework, data, and analysis scripts for a novel protein folding model inspired by the Gömböc—a convex 3D shape with exactly one stable and one unstable equilibrium point. The model investigates how energy landscape ruggedness affects protein folding kinetics and thermodynamics.
+This repository contains the computational framework, data, and analysis scripts for a novel protein folding model inspired by the Gömböc—a convex 3D shape with exactly one stable and one unstable equilibrium point. The model investigates how energy landscape ruggedness affects protein folding kinetics and the optimizability of folding landscapes.
 
 ## Overview
 
